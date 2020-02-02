@@ -18,9 +18,9 @@
     me
 
 ~[statement]
-    want
-    need
-    wish
+    want to
+    need to
+    wish to
     request
 
 ~[explain]
@@ -32,7 +32,8 @@
 
 ~[question]
     how to
-    where
+    where to
+    can you
 
 @[bookTime]
     ~[12hour] ~[timePeriods?]

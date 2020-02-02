@@ -24,7 +24,7 @@ if __name__ == '__main__':
                         entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
                     sentence += value['value']
                 if entity:
-                    print(entity)
+                    #print(entity)
                     entity_data.append((sentence, {'entities' : entity}))
                 lines.append({'data' : sentence, 'intent' : intent})
 

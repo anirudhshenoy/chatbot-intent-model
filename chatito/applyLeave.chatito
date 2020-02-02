@@ -1,10 +1,10 @@
 import ./common.chatito
 
 %[applyLeave]('training': '1000')
-    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[typeOfLeave?] ~[leave] on @[bookDate]
-    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[typeOfLeave?] ~[leave] 
-    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[typeOfLeave?] ~[leave] from @[bookDate] to @[bookDate]
-    *[10%] ~[apply?] ~[typeOfLeave?] ~[leave]
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for @[typeOfLeave?] ~[leave] on @[bookDate]
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for @[typeOfLeave?] ~[leave] 
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for @[typeOfLeave?] ~[leave] from @[bookDate] to @[bookDate]
+    *[10%] ~[apply?] @[typeOfLeave?] ~[leave]
 ~[apply]
     apply
     request
@@ -15,9 +15,9 @@ import ./common.chatito
 ~[leave]
     leave
     vacation
-    take work off
+    holiday
 
-~[typeOfLeave]
+@[typeOfLeave]
     casual
     sick
     maternity

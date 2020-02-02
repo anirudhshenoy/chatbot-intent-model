@@ -1,0 +1,49 @@
+import ./common.chatito
+
+%[leaveBalance]('training': '1000')
+    *[50%] ~[self?] ~[statement] ~[check] @[typeOfLeave?] ~[leave] ~[balance]
+    *[50%] ~[question?] ~[show?] @[typeOfLeave?] ~[leave] ~[balance]
+
+~[apply]
+    apply
+    request
+    application
+    avail
+    get
+
+~[leave]
+    leave
+    vacation
+    holiday
+
+@[typeOfLeave]
+    casual
+    sick
+    maternity
+    paternity
+    medical
+    earned
+
+~[balance]
+    balance
+    quota
+    allowance
+    number remaining
+    due
+    still there
+    still left
+
+~[show]
+    display
+    show me
+    show
+
+~[check]
+    check
+    check out
+    know
+    review
+    examine
+
+
+

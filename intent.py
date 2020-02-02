@@ -79,6 +79,8 @@ def train_model(features, y):
 def reply(intent, entities):
     if intent == 'applyLeave':
         response = 'Applying for leave on ' + str(entities[0]) 
+    elif intent == 'leaveBalance':
+        response = 'Checking your leave balance' 
     """
     responses = {
         'findRestaurantsByCity' : 'I see you\'re hungry! Do you want me to look for restaurants',
@@ -95,7 +97,7 @@ def reply(intent, entities):
 
 
 def test_pipeline(user_input, model):
-    nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load('custom_ner')
     entities = nlp(user_input)
 
     feature = np.average(glove.query(word_tokenize(user_input)), axis = 0)
@@ -113,7 +115,7 @@ if __name__  == '__main__':
     features, y = avg_glove(data, glove)
     model = train_model(features, y)
 
-
+    print('Ready!')
     while True:
         test_pipeline(input(), model)
 
