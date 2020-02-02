@@ -1,0 +1,1301 @@
+data,intent
+places to eat closeby,findRestaurantsByCity
+hi i'm looking for restaurants closeby thanks,findRestaurantsByCity
+restaurants in my area,findRestaurantsByCity
+please i'm looking for restaurants nearby thank you,findRestaurantsByCity
+where to eat in my area,findRestaurantsByCity
+restaurants closeby,findRestaurantsByCity
+plz places to eat nearby thank you,findRestaurantsByCity
+pls help me find where to eat nearby thanks,findRestaurantsByCity
+pls i'm looking for where to eat closeby thank you,findRestaurantsByCity
+hey please find places to eat close to me thanks,findRestaurantsByCity
+hello pls help me find where to eat closeby thanks,findRestaurantsByCity
+hey please i'm looking for where to eat nearby thanks,findRestaurantsByCity
+hello help me find restaurants closeby thanks,findRestaurantsByCity
+where to eat close to me,findRestaurantsByCity
+places to eat nearby,findRestaurantsByCity
+hey i'm looking for places to eat close to me thank you,findRestaurantsByCity
+pls find restaurants in my area thanks,findRestaurantsByCity
+hey plz i'm looking for places to eat close to me thank you,findRestaurantsByCity
+places to eat close to me,findRestaurantsByCity
+hi pls where to eat close to me thanks,findRestaurantsByCity
+hey pls find where to eat close to me thanks,findRestaurantsByCity
+restaurants close to me,findRestaurantsByCity
+pls i'm looking for places to eat nearby thank you,findRestaurantsByCity
+i'm looking for restaurants in my area thank you,findRestaurantsByCity
+where to eat closeby,findRestaurantsByCity
+please restaurants nearby,findRestaurantsByCity
+hello plz places to eat closeby thanks,findRestaurantsByCity
+find restaurants closeby thanks,findRestaurantsByCity
+hey find where to eat in my area thanks,findRestaurantsByCity
+where to eat nearby,findRestaurantsByCity
+hey please i'm looking for where to eat in my area thanks,findRestaurantsByCity
+places to eat in my area,findRestaurantsByCity
+hello help me find places to eat nearby,findRestaurantsByCity
+hi find where to eat close to me thank you,findRestaurantsByCity
+plz find places to eat nearby,findRestaurantsByCity
+hello pls help me find places to eat closeby thanks,findRestaurantsByCity
+please places to eat close to me,findRestaurantsByCity
+pls i'm looking for where to eat closeby,findRestaurantsByCity
+hey please find where to eat closeby,findRestaurantsByCity
+restaurants nearby,findRestaurantsByCity
+hello plz find restaurants in my area,findRestaurantsByCity
+hey find where to eat nearby thank you,findRestaurantsByCity
+pls where to eat close to me thanks,findRestaurantsByCity
+hey please i'm looking for places to eat in my area,findRestaurantsByCity
+find restaurants closeby thank you,findRestaurantsByCity
+plz i'm looking for places to eat nearby thanks,findRestaurantsByCity
+hey find places to eat in my area thank you,findRestaurantsByCity
+please where to eat closeby,findRestaurantsByCity
+please places to eat nearby thank you,findRestaurantsByCity
+please i'm looking for restaurants in my area thank you,findRestaurantsByCity
+hey help me find restaurants closeby thanks,findRestaurantsByCity
+hi plz help me find where to eat in my area,findRestaurantsByCity
+hi where to eat in my area thanks,findRestaurantsByCity
+hi plz help me find places to eat close to me thank you,findRestaurantsByCity
+hi plz help me find where to eat in my area thank you,findRestaurantsByCity
+hey pls find where to eat closeby thank you,findRestaurantsByCity
+hello restaurants closeby thank you,findRestaurantsByCity
+hello plz find restaurants close to me thank you,findRestaurantsByCity
+please i'm looking for restaurants closeby thank you,findRestaurantsByCity
+hi pls find places to eat nearby thanks,findRestaurantsByCity
+i'm looking for restaurants nearby thanks,findRestaurantsByCity
+hello pls find where to eat close to me,findRestaurantsByCity
+hi pls find where to eat close to me thank you,findRestaurantsByCity
+hey pls i'm looking for places to eat in my area,findRestaurantsByCity
+find restaurants close to me thank you,findRestaurantsByCity
+plz help me find restaurants nearby,findRestaurantsByCity
+hello plz find where to eat close to me thanks,findRestaurantsByCity
+hi please find restaurants close to me,findRestaurantsByCity
+hello i'm looking for places to eat close to me thanks,findRestaurantsByCity
+hello pls where to eat nearby thanks,findRestaurantsByCity
+find where to eat nearby thank you,findRestaurantsByCity
+help me find places to eat in my area,findRestaurantsByCity
+hello pls i'm looking for places to eat nearby thank you,findRestaurantsByCity
+hello plz find places to eat close to me thank you,findRestaurantsByCity
+hi pls find where to eat closeby thank you,findRestaurantsByCity
+hello plz places to eat closeby,findRestaurantsByCity
+pls help me find places to eat nearby thank you,findRestaurantsByCity
+hi pls i'm looking for places to eat in my area thank you,findRestaurantsByCity
+help me find places to eat closeby thanks,findRestaurantsByCity
+hey please i'm looking for restaurants in my area,findRestaurantsByCity
+hello please help me find restaurants closeby,findRestaurantsByCity
+please help me find where to eat close to me thanks,findRestaurantsByCity
+i'm looking for places to eat close to me,findRestaurantsByCity
+hello plz restaurants in my area thanks,findRestaurantsByCity
+plz help me find places to eat in my area,findRestaurantsByCity
+please i'm looking for where to eat in my area thanks,findRestaurantsByCity
+hi please i'm looking for places to eat in my area,findRestaurantsByCity
+hi please help me find restaurants nearby thanks,findRestaurantsByCity
+hey pls help me find places to eat close to me thanks,findRestaurantsByCity
+hey where to eat in my area thank you,findRestaurantsByCity
+hello help me find restaurants close to me thanks,findRestaurantsByCity
+hey help me find restaurants in my area thank you,findRestaurantsByCity
+hey please help me find places to eat closeby,findRestaurantsByCity
+hey please i'm looking for where to eat close to me thank you,findRestaurantsByCity
+hello i'm looking for places to eat closeby,findRestaurantsByCity
+hi pls find where to eat in my area thank you,findRestaurantsByCity
+hello please help me find restaurants closeby thank you,findRestaurantsByCity
+hi i'm looking for places to eat closeby thank you,findRestaurantsByCity
+hi please find where to eat close to me thanks,findRestaurantsByCity
+hello please find places to eat in my area thanks,findRestaurantsByCity
+hello how are you doing,greet
+hi greetings how are you doing,greet
+hi greetings are you there,greet
+hey are you around?,greet
+hey good afternoon whatsup,greet
+greetings are you around?,greet
+hello whats up,greet
+hi good day whatsup,greet
+good morning how is it going,greet
+hello good afternoon how are you,greet
+hey good day sup,greet
+hello good night are you around,greet
+hi good morning how are things going,greet
+hey good day are you there,greet
+hi good morning whats up,greet
+hi,greet
+hi good morning are you there,greet
+hi good afternoon are you there,greet
+hi good day are you around?,greet
+hey morning are you around,greet
+good night whats up,greet
+hello good day sup,greet
+hello good afternoon are you there,greet
+good afternoon how is it going,greet
+hello good morning are you around?,greet
+morning whats up,greet
+good morning,greet
+hey good night are you around,greet
+hi good morning how is it going,greet
+hi good morning how are you doing,greet
+good night,greet
+hi whats up,greet
+morning sup,greet
+hey morning,greet
+hey good day how are you doing,greet
+greetings whats up,greet
+hi good day how are you,greet
+greetings whatsup,greet
+morning how is it going,greet
+hi good night are you there,greet
+hello greetings how are things going,greet
+hello good afternoon whats up,greet
+hello greetings are you there,greet
+hey good morning are you there,greet
+hello good afternoon how is it going,greet
+hi good day sup,greet
+hi good afternoon whatsup,greet
+hey good afternoon are you there,greet
+hey morning sup,greet
+good morning are you around?,greet
+gtg thank you,bye
+chau,bye
+chao,bye
+talk to you later goodbye,bye
+thank you bye,bye
+adios,bye
+im leaving now bye,bye
+thank you chau,bye
+thanks farewell,bye
+ttyl,bye
+im leaving now chao,bye
+got to go ttyl,bye
+im leaving now adios,bye
+thank you goodbye,bye
+im leaving now,bye
+thanks goodbye,bye
+gtg,bye
+bye,bye
+got to go gtg,bye
+talk to you soon adieu,bye
+have to go gtg,bye
+leaving,bye
+adios thank you,bye
+talk to you later chau,bye
+thanks chao,bye
+adieu,bye
+have to go farewell,bye
+goodbye thank you,bye
+have to go adieu,bye
+thanks chau,bye
+have to go ttyl,bye
+heading out chao,bye
+im leaving now gtg,bye
+thanks adieu,bye
+going out adios,bye
+got to go adieu,bye
+have to go adios,bye
+talk to you soon bye,bye
+thank you chao,bye
+im leaving now farewell,bye
+got to go goodbye,bye
+im leaving now ttyl,bye
+got to go chao,bye
+talk to you later,bye
+bye thanks,bye
+thanks bye,bye
+adieu thanks,bye
+got to go bye,bye
+heading out bye,bye
+leaving goodbye,bye
+right,affirmative
+correct,affirmative
+yep i want that correct,affirmative
+yep that is right affirmative,affirmative
+that is fine yes sir,affirmative
+correct its fine,affirmative
+im ok with that thanks,affirmative
+sounds good good agreed,affirmative
+yep,affirmative
+im ok with that that is good right,affirmative
+sounds good yes sir thank you,affirmative
+yes sir good affirmative,affirmative
+yes sir correct,affirmative
+sounds good good,affirmative
+right yes sir,affirmative
+affirmative,affirmative
+sounds good that is good yes,affirmative
+im ok with that that is what i want right,affirmative
+im ok with that that is right affirmative,affirmative
+yep good right,affirmative
+yes sir im ok with that,affirmative
+sounds good i want that agreed,affirmative
+correct that is fine right,affirmative
+im ok with that its fine affirmative,affirmative
+affirmative that is good yes,affirmative
+agreed,affirmative
+sounds good,affirmative
+im ok with that i want that yes,affirmative
+correct plz,affirmative
+agreed that is fine agreed,affirmative
+im ok with that that is right correct,affirmative
+affirmative that is right agreed,affirmative
+sounds good pls,affirmative
+yes sir yep thank you,affirmative
+im ok with that that is what i want im ok with that,affirmative
+affirmative that is correct correct,affirmative
+good yes,affirmative
+yes that is right right,affirmative
+yes sir that is fine correct,affirmative
+right thanks,affirmative
+yes thank you,affirmative
+agreed please,affirmative
+im ok with that im ok with that thank you,affirmative
+yes yep thanks,affirmative
+yes sir its fine im ok with that,affirmative
+right agreed,affirmative
+yes that is good agreed,affirmative
+affirmative yes sir thanks,affirmative
+right pls,affirmative
+sounds good its fine im ok with that,affirmative
+not really,negative
+it's not good,negative
+plz that's not right it's not good,negative
+pls that's not right that's wrong,negative
+that's not right plz that is wrong,negative
+dont mean that,negative
+incorrect that's not correct,negative
+that's not right,negative
+please not really i don't want that,negative
+nope,negative
+not really please its not correct,negative
+that's not right please that's not correct,negative
+that's wrong,negative
+incorrect pls that's not correct,negative
+please no that is wrong,negative
+don't do that didnt meant that,negative
+i don't want that,negative
+don't do that i don't want that,negative
+not really please its not ok,negative
+that's not right pls i don't want that,negative
+please no dont mean that,negative
+pls no that's not correct,negative
+pls no that is wrong,negative
+please that's not right i don't want that,negative
+nope plz that is wrong,negative
+incorrect pls it's not good,negative
+pls nope dont mean that,negative
+incorrect,negative
+nope plz that's not correct,negative
+its not correct,negative
+no it's not good,negative
+not really that's wrong,negative
+don't do that,negative
+that's not right plz that's not what i want,negative
+don't do that its not correct,negative
+no plz that's not correct,negative
+that's not right please i don't want that,negative
+incorrect didnt meant that,negative
+that's not what i want,negative
+plz don't do that that is wrong,negative
+incorrect plz i don't want that,negative
+incorrect i don't want that,negative
+nope plz that's wrong,negative
+please nope i don't want that,negative
+that's not correct,negative
+plz not really its not correct,negative
+pls nope i don't want that,negative
+incorrect pls its not ok,negative
+that's not right plz dont mean that,negative
+no plz that is wrong,negative
+fix all available room,bookMeeting
+show some meet between 4:23 pm and 11:11 pm,bookMeeting
+fix any hall,bookMeeting
+identify some available meeting on 20/5,bookMeeting
+reserve room from 5:15 to 12:50 pm,bookMeeting
+fix some available hall,bookMeeting
+schedule all meet,bookMeeting
+search any available room,bookMeeting
+show all meeting on 25/4,bookMeeting
+setup meeting from 6:7 pm to 9:56 am,bookMeeting
+setup meet from 10:08 to 3:54 am,bookMeeting
+setup some hall,bookMeeting
+find some available meet on 25 of December,bookMeeting
+identify any meet on June 9th,bookMeeting
+show me available room,bookMeeting
+search any meeting between 1:49 and 9:12 am,bookMeeting
+fix available meeting,bookMeeting
+show meet on july 19th,bookMeeting
+identify available meet,bookMeeting
+fix room,bookMeeting
+schedule meeting,bookMeeting
+schedule meeting from 20:14 to 12:08,bookMeeting
+search all room on 19th of mar,bookMeeting
+look for available room between 5:59 pm and 15:26,bookMeeting
+arrange available hall from 3:23 to 3:29 on 5/7,bookMeeting
+identify all room between 10:22 and 1:55,bookMeeting
+arrange meeting from 7:4 to 2:28 on may 16,bookMeeting
+book room from 1:20 to 10:54 am on may 13,bookMeeting
+look for all room on 18/6,bookMeeting
+search any available hall,bookMeeting
+identify any available hall,bookMeeting
+reserve room from 14:14 to 5:26 am,bookMeeting
+book meeting from 8:42 am to 18:2 on March 1,bookMeeting
+identify some available meet on February 16,bookMeeting
+show some hall between 9:57 and 2:25 pm,bookMeeting
+show me any available hall on nov 9th,bookMeeting
+book available hall from 9:10 to 12:23,bookMeeting
+show me any available meeting,bookMeeting
+book meeting from 1:23 am to 9:9 am,bookMeeting
+search all available meeting between 7:4 pm and 11:12 am,bookMeeting
+search available meet between 2:36 and 18:30,bookMeeting
+reserve any meet,bookMeeting
+schedule meeting from 15:37 to 20:27,bookMeeting
+setup all room,bookMeeting
+show me some available hall,bookMeeting
+identify some meet on 15/5,bookMeeting
+look for some meet between 5:23 and 8:13,bookMeeting
+schedule available meeting from 7:24 to 8:36 am,bookMeeting
+show room on August 21th,bookMeeting
+fix meet,bookMeeting
+search available meet between 9:29 and 7:56,bookMeeting
+arrange available meet from 8:35 to 4:29 am on 8/5,bookMeeting
+find some available hall,bookMeeting
+find some available hall on August 13,bookMeeting
+search some available meeting on 12 of oct,bookMeeting
+show me all available meet between 10:55 pm and 8:25,bookMeeting
+identify any available room,bookMeeting
+fix available room from 9:03 to 7:19,bookMeeting
+show me meeting on 9 of nov,bookMeeting
+fix available meet from 19:8 to 8 am,bookMeeting
+fix some meeting,bookMeeting
+arrange hall,bookMeeting
+book any meeting,bookMeeting
+show me all available hall,bookMeeting
+schedule hall from 8:5 to 7:31 am,bookMeeting
+find any meet between 3:28 am and 11:45 am,bookMeeting
+book all meet,bookMeeting
+arrange room,bookMeeting
+schedule meet from 6:15 pm to 9:26,bookMeeting
+find some available meet on December 25,bookMeeting
+arrange available room from 2:29 am to 4:39,bookMeeting
+identify some available hall,bookMeeting
+arrange all meet,bookMeeting
+schedule any available meeting,bookMeeting
+show me any room between 16:40 and 1:56,bookMeeting
+show me some available meet on March 29th,bookMeeting
+fix all available hall,bookMeeting
+setup meet from 21:44 to 9:05 am,bookMeeting
+search available room between 12:17 am and 6:50,bookMeeting
+book available hall from 23:7 to 3:28 am on 7/9,bookMeeting
+reserve all available hall,bookMeeting
+setup meeting from 6:33 am to 1:28 pm on 3 of June,bookMeeting
+identify available hall,bookMeeting
+show all available hall,bookMeeting
+setup all hall,bookMeeting
+look for any available hall on January 15,bookMeeting
+find all meeting between 12:32 pm and 10:16 am,bookMeeting
+fix room from 7:7 pm to 7:59 on 29 of mar,bookMeeting
+fix any available meeting,bookMeeting
+schedule meet,bookMeeting
+book available meet from 1:21 am to 7:56 pm on 24 of March,bookMeeting
+reserve all meeting,bookMeeting
+reserve room,bookMeeting
+reserve room from 3:52 am to 4:02 pm on 20 of jun,bookMeeting
+arrange available meeting from 18:58 to 6:12 am,bookMeeting
+book room,bookMeeting
+identify any available meeting,bookMeeting
+arrange all room,bookMeeting
+show me available hall between 0:42 and 7:15,bookMeeting
+show me all available room,bookMeeting
+setup any room,bookMeeting
+show me all available hall on dec 22,bookMeeting
+search meeting between 12:02 and 6,bookMeeting
+search available hall,bookMeeting
+arrange all available meeting,bookMeeting
+search any room on 3 of dec,bookMeeting
+identify available room,bookMeeting
+book available meeting from 6:26 to 6:27,bookMeeting
+show me room on August 7,bookMeeting
+show some available hall between 1:02 and 12:00,bookMeeting
+reserve room from 19:33 to 4:00 on dec 13th,bookMeeting
+show any available hall,bookMeeting
+book meeting from 9:2 to 5:35 am on 23/12,bookMeeting
+reserve available meeting,bookMeeting
+look for any available meeting between 2:41 am and 17:01,bookMeeting
+fix available room from 17:5 to 9:39 am on may 20,bookMeeting
+fix available meet,bookMeeting
+book hall from 1:2 am to 23:43,bookMeeting
+look for some available meet on sept 11th,bookMeeting
+look for any available meeting,bookMeeting
+arrange available meet from 0:53 to 11:4 am,bookMeeting
+book hall from 18:29 to 5:02,bookMeeting
+show some meeting on jan 5th,bookMeeting
+reserve available hall from 1:18 pm to 12:25 on November 26th,bookMeeting
+find some meeting between 17:2 and 1:23 am,bookMeeting
+reserve any hall,bookMeeting
+show any hall on 12 of February,bookMeeting
+find some available meeting between 10:34 and 7:38,bookMeeting
+schedule some hall,bookMeeting
+search all available room,bookMeeting
+arrange available meet from 2:57 to 5:24,bookMeeting
+schedule available hall from 20:14 to 8:05 am,bookMeeting
+setup available meet from 8:00 am to 6:23 on 8 of March,bookMeeting
+look for any available hall,bookMeeting
+show any available hall on july 20th,bookMeeting
+schedule hall,bookMeeting
+reserve room from 22:26 to 3:45 am,bookMeeting
+fix available room from 3:42 to 3:59 on 18 of sept,bookMeeting
+setup meeting from 6:8 to 8:28 on 19/9,bookMeeting
+fix available hall from 9:52 to 12:56 on 15th of December,bookMeeting
+look for any room on October 1,bookMeeting
+setup available meet from 4:37 am to 5:15,bookMeeting
+setup meeting from 23:39 to 11:16 on feb 18,bookMeeting
+reserve meeting from 5:51 to 9:06,bookMeeting
+arrange available meet from 7:15 to 14:6,bookMeeting
+arrange meet from 16:53 to 9:37 on 29/7,bookMeeting
+book meeting from 8:1 am to 5:04 am,bookMeeting
+reserve available hall from 6:33 am to 8:3 pm on February 22th,bookMeeting
+arrange some available meet,bookMeeting
+book available meet,bookMeeting
+find available hall,bookMeeting
+fix meet from 10:00 am to 0:06,bookMeeting
+identify all available meet,bookMeeting
+setup room from 6:43 pm to 21:30,bookMeeting
+search meeting on July 31,bookMeeting
+schedule all hall,bookMeeting
+show me some meeting on November 10,bookMeeting
+find some available meeting on oct 25,bookMeeting
+setup available meet from 11:25 pm to 21:59,bookMeeting
+show all available hall between 8:7 and 5:26 pm,bookMeeting
+reserve hall from 9:16 to 4:39 am on 19th of September,bookMeeting
+setup all meeting,bookMeeting
+show some available room on oct 5,bookMeeting
+look for any meet on apr 1,bookMeeting
+arrange meet from 12:37 pm to 3:3,bookMeeting
+fix meet from 6:57 to 21:41 on 23 of apr,bookMeeting
+show some available hall,bookMeeting
+book available hall from 9:6 pm to 19:13,bookMeeting
+find some meet between 2:06 and 3:22,bookMeeting
+arrange available meeting from 12:29 to 3:07 am,bookMeeting
+book hall from 2:11 to 10:5 pm on May 1st,bookMeeting
+show me all available hall on 31th of December,bookMeeting
+show any meet on oct 17,bookMeeting
+look for available meeting on dec 23,bookMeeting
+show me any available meet,bookMeeting
+show me any room between 11:50 am and 7:04,bookMeeting
+arrange meet from 7:52 to 11:00 am,bookMeeting
+book meet,bookMeeting
+look for all available meet,bookMeeting
+find any available room,bookMeeting
+show some available room,bookMeeting
+book available room from 4:07 to 4:48 am,bookMeeting
+setup meet from 4:24 am to 9:28 pm,bookMeeting
+schedule available hall from 11:57 to 1:51 am on 8 of July,bookMeeting
+look for some available hall between 1:56 and 9:35,bookMeeting
+fix available meeting from 0:43 pm to 2:32 on January 12,bookMeeting
+fix available meeting from 15:39 to 5:20 on may 19,bookMeeting
+look for available meeting between 0:03 pm and 7:1 pm,bookMeeting
+identify some available meeting on February 14,bookMeeting
+search some meet between 2:7 and 5:04,bookMeeting
+look for some available meeting,bookMeeting
+search any meet between 4:16 am and 2:31,bookMeeting
+fix meet from 1:46 to 5:20 on 26th of January,bookMeeting
+show me all meet on 14 of feb,bookMeeting
+show me hall between 1:55 and 2:45,bookMeeting
+search some room between 1:46 and 15:27,bookMeeting
+arrange room from 10:35 pm to 19:18 on oct 23th,bookMeeting
+show some hall between 4:26 am and 11:25 am,bookMeeting
+schedule hall from 7:55 to 12:36 pm on 6 of February,bookMeeting
+show me available meeting,bookMeeting
+show any room between 4:26 and 11:12 pm,bookMeeting
+arrange meet from 16:37 to 9:32 pm on October 4th,bookMeeting
+find any available meeting between 8:08 and 8:24 am,bookMeeting
+book hall from 23:09 to 4:15,bookMeeting
+search some meeting on 6th of jan,bookMeeting
+show available hall,bookMeeting
+look for available room on 6 of sept,bookMeeting
+identify available hall on 26th of June,bookMeeting
+search some available hall,bookMeeting
+schedule available room from 1:59 to 1:51 am on oct 24,bookMeeting
+show me some available meeting,bookMeeting
+arrange available hall from 3:08 to 5:34 am,bookMeeting
+identify all available hall,bookMeeting
+setup available meeting,bookMeeting
+schedule available hall from 5:05 to 16:17 on 10 of oct,bookMeeting
+book hall from 3:6 pm to 2:19 pm on jun 23th,bookMeeting
+fix some hall,bookMeeting
+schedule all room,bookMeeting
+reserve room from 11:53 am to 3:26,bookMeeting
+arrange available room from 4:40 to 0:24 on 26th of may,bookMeeting
+show available room between 3:16 pm and 12:44 pm,bookMeeting
+identify some available room,bookMeeting
+show me available hall on jun 3rd,bookMeeting
+show all available room,bookMeeting
+find meeting on February 7,bookMeeting
+schedule meeting from 8:58 pm to 0:2 pm,bookMeeting
+book meet from 8:13 pm to 0:27 am,bookMeeting
+schedule available hall from 11:58 to 10:09,bookMeeting
+show me some room between 5:25 am and 2:28,bookMeeting
+book hall from 8:05 to 1:6 am on August 20th,bookMeeting
+look for all hall between 2:57 am and 8:12,bookMeeting
+look for available meeting,bookMeeting
+search room between 22:06 and 2:01,bookMeeting
+setup available hall from 5:37 pm to 9:51 pm,bookMeeting
+book available room,bookMeeting
+search some meet on 6/6,bookMeeting
+find available meet,bookMeeting
+show me all available meeting between 0:04 and 5:10 pm,bookMeeting
+schedule available meeting from 2:59 pm to 0:55 am on 16th of july,bookMeeting
+find some available room,bookMeeting
+find room between 4:45 and 6:4 am,bookMeeting
+setup available meet from 11:09 to 1:01,bookMeeting
+show me some available meet,bookMeeting
+arrange available meeting from 14:56 to 5:32 on 5 of October,bookMeeting
+reserve available room from 4:39 pm to 3:08,bookMeeting
+show some meeting on feb 15,bookMeeting
+book available meet from 5:8 to 14:47 on 24th of October,bookMeeting
+find some meeting on 12th of August,bookMeeting
+look for room between 0:55 pm and 22:29,bookMeeting
+arrange any hall,bookMeeting
+book meet from 10:49 to 0:46,bookMeeting
+reserve all meet,bookMeeting
+arrange available meet from 21:58 to 12:3 am,bookMeeting
+show me all available hall on apr 9th,bookMeeting
+book available room from 11:3 am to 20:06 on 6/2,bookMeeting
+fix hall from 16:0 to 9:46,bookMeeting
+reserve meeting from 7:10 to 8:34 pm,bookMeeting
+show me all available meeting between 8:51 and 7:30 pm,bookMeeting
+identify any room between 14:58 and 9:9,bookMeeting
+book meet from 18:9 to 2:16 am on 8 of dec,bookMeeting
+book available meet from 10:55 to 12:28 on 8th of January,bookMeeting
+show me some available room,bookMeeting
+book hall from 23:36 to 14:03,bookMeeting
+show available room,bookMeeting
+look for available meet between 12:39 and 9:31,bookMeeting
+search available room,bookMeeting
+look for any available room between 8:16 pm and 8:24,bookMeeting
+reserve available meeting from 11:29 to 7:04,bookMeeting
+look for all room on 9th of May,bookMeeting
+show me hall between 9:49 pm and 5:7,bookMeeting
+schedule meeting from 15:07 to 6:55 am on March 17th,bookMeeting
+show me all available meet on 18 of oct,bookMeeting
+arrange available meet from 11:41 to 11:24 pm,bookMeeting
+search available meeting on 23 of sept,bookMeeting
+identify available meeting on 13 of March,bookMeeting
+find some available room between 2:00 and 1:37 am,bookMeeting
+schedule all available meet,bookMeeting
+fix some available room,bookMeeting
+setup meeting from 10:54 pm to 3:28,bookMeeting
+book meeting from 10:40 am to 9:52 am,bookMeeting
+reserve available meet from 5:0 to 12:12 on 20 of August,bookMeeting
+setup available meeting from 3:13 to 1:13,bookMeeting
+setup available meet from 11:34 am to 10:08 am,bookMeeting
+look for meeting on next Thursday,bookMeeting
+book room from 12:44 pm to 18:11 on aug 22th,bookMeeting
+identify some available hall between 0:27 pm and 6:2 pm,bookMeeting
+show me any room on 28th of September,bookMeeting
+show me any hall between 7:1 and 19:26,bookMeeting
+book room from 4:36 pm to 10:55 am on 6th of June,bookMeeting
+look for hall on July 16th,bookMeeting
+setup any available hall,bookMeeting
+book available meet from 4:05 to 8:02 pm,bookMeeting
+arrange available room from 7:48 am to 1:20,bookMeeting
+look for some room between 14:44 and 18:28,bookMeeting
+reserve all hall,bookMeeting
+reserve available room,bookMeeting
+schedule room from 12:3 pm to 17:37 on 11 of July,bookMeeting
+schedule any meeting,bookMeeting
+schedule meeting from 6:41 am to 5:24,bookMeeting
+find any available hall on May 3rd,bookMeeting
+fix all hall,bookMeeting
+identify any hall between 17:18 and 6:50 pm,bookMeeting
+show all available hall between 10:6 and 14:29,bookMeeting
+setup available hall from 1:4 to 12:12 am,bookMeeting
+fix meet from 7:37 to 12:01 am,bookMeeting
+book available meeting from 13:56 to 12:53 pm on 7 of February,bookMeeting
+show available room between 0:14 and 5:7 am,bookMeeting
+setup some available hall,bookMeeting
+schedule some available meeting,bookMeeting
+arrange available hall from 3:03 to 10:42 am,bookMeeting
+book available hall from 6:18 to 12:54 am on 19th of November,bookMeeting
+fix all room,bookMeeting
+find all available meet,bookMeeting
+setup available meeting from 9:41 am to 5:43 pm on April 21,bookMeeting
+identify any hall on April 14,bookMeeting
+identify some meet on 23th of nov,bookMeeting
+show available meeting on 14 of nov,bookMeeting
+setup available hall from 7:9 am to 10:49 pm on tomorrow,bookMeeting
+arrange any meet,bookMeeting
+reserve any available meeting,bookMeeting
+setup meet from 7:8 am to 1:20 on 29th of dec,bookMeeting
+book meeting from 11:53 pm to 18:08 on dec 13,bookMeeting
+show available meeting,bookMeeting
+search all meeting between 9:26 am and 4:03 pm,bookMeeting
+arrange available meet from 6:07 pm to 10:53 on 17/5,bookMeeting
+setup room from 4:44 am to 7:53 on apr 20th,bookMeeting
+book available meet from 1:32 am to 12:26,bookMeeting
+reserve hall from 8:22 am to 22:22,bookMeeting
+find hall between 0:54 pm and 7:00,bookMeeting
+reserve available meet from 23:6 to 3:36 pm,bookMeeting
+show me all available meeting between 2:4 and 0:52 pm,bookMeeting
+reserve hall,bookMeeting
+book hall from 8:12 to 21:6 on nov 30th,bookMeeting
+show all room on mar 28th,bookMeeting
+book any room,bookMeeting
+reserve meet from 3:53 pm to 9:03,bookMeeting
+schedule any available meet,bookMeeting
+fix available meet from 22:07 to 11:37 pm,bookMeeting
+show me any available hall,bookMeeting
+schedule available meeting from 9:02 pm to 3:30 pm on may 10,bookMeeting
+fix available meeting from 4:26 to 23:01 on 6th of January,bookMeeting
+find any meet between 21:30 and 16:48,bookMeeting
+setup hall from 7:27 to 8:11 am on 21 of july,bookMeeting
+identify any room on 1 of sept,bookMeeting
+look for available meet,bookMeeting
+find any hall on 25th of oct,bookMeeting
+search available meet,bookMeeting
+arrange all available hall,bookMeeting
+show some available meeting on jun 8,bookMeeting
+show me any hall between 17:41 and 17:22,bookMeeting
+show me some available meet on may 4,bookMeeting
+book hall from 21:30 to 21:19 on 25 of March,bookMeeting
+book hall from 9:42 to 7:20 am on 29 of November,bookMeeting
+schedule all available room,bookMeeting
+identify any hall on July 28th,bookMeeting
+search available hall between 2:40 pm and 7:5 pm,bookMeeting
+reserve available meeting from 9:16 pm to 0:02 pm,bookMeeting
+reserve hall from 22:53 to 7:0 pm on sept 24,bookMeeting
+reserve available hall from 21:35 to 1 am on 9 of mar,bookMeeting
+identify all hall between 21:31 and 7:30 am,bookMeeting
+schedule available room from 0:56 to 17:4,bookMeeting
+show me all available room on 12/1,bookMeeting
+reserve available hall from 4:01 am to 8:11 on February 21,bookMeeting
+show meet between 9:55 and 4:15,bookMeeting
+show any meeting between 8:19 and 4:15,bookMeeting
+fix hall from 17:10 to 6:44 am,bookMeeting
+show all available room on 14th of jan,bookMeeting
+look for some available room on 1 of May,bookMeeting
+show me any available meet on feb 7,bookMeeting
+identify all hall between 1:56 and 0:38,bookMeeting
+identify any available room on 12 of nov,bookMeeting
+arrange room from 1:39 pm to 6:32 am,bookMeeting
+search any meeting between 7:49 and 7:06 am,bookMeeting
+reserve meeting from 3:28 pm to 4:36 on September 7,bookMeeting
+show me some meet between 6:03 and 5:3 am,bookMeeting
+book meeting from 7:49 to 3:36 pm,bookMeeting
+find all hall between 9:40 and 4:7,bookMeeting
+fix meeting from 10:7 to 11:13 pm on 21th of October,bookMeeting
+show any meet on September 13th,bookMeeting
+reserve available room from 10:41 to 8:14,bookMeeting
+reserve room from 3:11 to 7:1,bookMeeting
+look for available meeting between 6:2 pm and 11:03 am,bookMeeting
+fix some available meet,bookMeeting
+show me any hall on sept 10,bookMeeting
+fix hall,bookMeeting
+look for some available room on 26 of jun,bookMeeting
+show me any available meeting between 3:37 and 3:7,bookMeeting
+reserve all room,bookMeeting
+reserve room from 7:45 to 7:49,bookMeeting
+schedule meet from 2:25 pm to 5:31 on 15 of may,bookMeeting
+arrange available meet from 11:16 to 6:21 am on 27 of feb,bookMeeting
+find any available hall,bookMeeting
+setup available meeting from 2:41 to 11:31 pm,bookMeeting
+arrange available room from 7:9 to 8:06 am,bookMeeting
+show me any available meeting between 5:41 and 19:22,bookMeeting
+schedule room from 7:09 to 0:17 pm,bookMeeting
+look for available room,bookMeeting
+show me all meeting between 2:13 am and 21:16,bookMeeting
+find any room on February 3,bookMeeting
+arrange available meeting from 2:37 pm to 0 am on 25th of April,bookMeeting
+book available meeting from 7:28 pm to 13:12 on 28th of aug,bookMeeting
+reserve available hall from 11:40 pm to 11:53 on 10 of January,bookMeeting
+identify any available meeting on December 14,bookMeeting
+look for all available hall between 9:56 pm and 23:16,bookMeeting
+show all available meeting,bookMeeting
+show any available meeting,bookMeeting
+book meeting from 9:12 to 12:53,bookMeeting
+fix meeting from 8:50 to 23:32,bookMeeting
+identify some available meeting between 7:22 am and 11:47,bookMeeting
+book hall from 15:03 to 21:32 on March 18,bookMeeting
+book some available hall,bookMeeting
+identify any available meet,bookMeeting
+look for meet on 3/12,bookMeeting
+search some available meet between 7:22 pm and 20:8,bookMeeting
+setup available room,bookMeeting
+show me any available room on January 18,bookMeeting
+fix hall from 4:34 to 4:5 on 28/4,bookMeeting
+reserve hall from 17:15 to 6:23 on 29 of july,bookMeeting
+search any meeting on sept 11th,bookMeeting
+find any available meet between 5:32 and 3:25,bookMeeting
+fix available hall from 10:07 am to 6:10 pm on 8th of December,bookMeeting
+search some available meeting between 12:41 and 22:07,bookMeeting
+reserve meet from 9:01 to 5:48,bookMeeting
+show available meeting between 13:02 and 1:29 am,bookMeeting
+show any available hall on 10/1,bookMeeting
+fix available room from 11:41 am to 18:10 on 29 of aug,bookMeeting
+show all hall on 20/4,bookMeeting
+arrange meeting from 7:31 am to 1:45 on August 16,bookMeeting
+fix available meet from 8:02 to 1:34 pm on 29 of November,bookMeeting
+fix meet from 17:00 to 23:23 on January 26,bookMeeting
+search available meet between 4:03 and 5:59 pm,bookMeeting
+show all meeting on oct 15,bookMeeting
+schedule meeting from 11:4 to 11:51 am on apr 16th,bookMeeting
+book available meeting from 9:46 to 1:41,bookMeeting
+setup available meeting from 15:54 to 6:48,bookMeeting
+show any meeting on 12th of January,bookMeeting
+setup hall from 0:52 am to 11:44 pm on may 6,bookMeeting
+identify all meeting between 8:7 and 0:51,bookMeeting
+look for all hall on 9 of july,bookMeeting
+arrange meet from 10:46 to 3:32 am,bookMeeting
+show all room between 2:3 pm and 8:40 am,bookMeeting
+setup room from 7:10 to 11:56 on July 19,bookMeeting
+show any available room between 7:17 pm and 6:0 am,bookMeeting
+book available hall from 12:35 to 4:8,bookMeeting
+search all available meeting between 2:30 pm and 17:57,bookMeeting
+arrange meet from 20:20 to 1:36 am on apr 31,bookMeeting
+arrange room from 14:0 to 5:9 am on aug 23,bookMeeting
+find meet between 1:52 and 23:49,bookMeeting
+schedule room from 1:38 to 16:59 on 7 of mar,bookMeeting
+reserve some available meeting,bookMeeting
+fix some meet,bookMeeting
+fix meet from 0:15 to 14:09 on jun 25th,bookMeeting
+reserve available meeting from 10:30 to 0:33,bookMeeting
+reserve available hall from 14:03 to 12:33 am,bookMeeting
+find hall on 22/3,bookMeeting
+setup meet from 23:22 to 20:51,bookMeeting
+reserve meeting from 1:55 pm to 8:55 pm,bookMeeting
+setup meet from 0:31 pm to 3:40 pm on August 20,bookMeeting
+fix any meeting,bookMeeting
+show available room on September 14,bookMeeting
+arrange available meeting from 18:55 to 0:26 pm,bookMeeting
+setup room from 3:8 am to 8:42 am,bookMeeting
+show any meeting between 17:01 and 11:16 am,bookMeeting
+show some room between 4:54 and 8:55,bookMeeting
+show me available hall between 4:22 am and 8:57,bookMeeting
+setup meet from 18:19 to 10:4,bookMeeting
+schedule hall from 10:17 am to 20:29,bookMeeting
+setup any meeting,bookMeeting
+show me all meet between 10:56 and 8:53,bookMeeting
+search all available room between 1:03 pm and 3:15,bookMeeting
+identify all available meet on August 25th,bookMeeting
+reserve available meeting from 5:05 to 7:09 pm on 11th of October,bookMeeting
+fix available meeting from 11:13 am to 13:42,bookMeeting
+book all room,bookMeeting
+search any available room on 12/10,bookMeeting
+show some available hall between 13:44 and 13:26,bookMeeting
+identify any hall on 11th of June,bookMeeting
+find some room on December 29,bookMeeting
+schedule hall from 15:14 to 23:55 on apr 2,bookMeeting
+fix available room from 21:00 to 6:1,bookMeeting
+look for any meet between 10:24 am and 4:50,bookMeeting
+find any available meet between 11:10 am and 9:8,bookMeeting
+reserve hall from 0:55 to 23:05,bookMeeting
+arrange available meet from 3:24 to 2:10,bookMeeting
+find any hall on November 18th,bookMeeting
+identify any meet between 9:43 and 14:47,bookMeeting
+schedule some room,bookMeeting
+arrange available hall from 19:18 to 7:28 pm on July 9,bookMeeting
+setup room from 11:9 pm to 11:24 on aug 11th,bookMeeting
+identify meeting between 4:11 and 5:57 pm,bookMeeting
+find available meeting on 4/10,bookMeeting
+book meet from 7:32 to 12:32 pm on May 31th,bookMeeting
+fix available meet from 9:29 pm to 12:38,bookMeeting
+find available hall on 11/8,bookMeeting
+fix available hall from 6:37 pm to 18:20 on july 26th,bookMeeting
+reserve available meet from 23:11 to 8:4 am on 29th of nov,bookMeeting
+reserve available meet from 20:59 to 2:37 am on August 22,bookMeeting
+look for any room on 4th of September,bookMeeting
+book some meeting,bookMeeting
+reserve room from 3:20 to 2:35 pm on mar 27,bookMeeting
+fix available meeting from 6:42 am to 13:8 on June 15th,bookMeeting
+reserve room from 11:23 pm to 2:0 pm on 10/4,bookMeeting
+search any available meeting on july 7th,bookMeeting
+search any available meeting on May 3rd,bookMeeting
+fix available room from 9:12 to 0:30 pm on 1 of sept,bookMeeting
+search any available meeting on November 9,bookMeeting
+look for some hall on mar 19,bookMeeting
+reserve room from 6:30 to 5:23 on 27th of may,bookMeeting
+reserve hall from 0:5 pm to 1:42 am,bookMeeting
+show me any available hall on 6 of November,bookMeeting
+fix meeting,bookMeeting
+search all meet between 8:29 pm and 3:44,bookMeeting
+find some available room between 9:58 am and 20:05,bookMeeting
+search all available hall,bookMeeting
+schedule available meet from 2:1 to 8:5 am on jan 29th,bookMeeting
+book available hall from 9:09 to 5:9 pm on 30th of December,bookMeeting
+schedule available room from 10:21 to 16:58,bookMeeting
+fix hall from 7:0 to 2:04 am,bookMeeting
+setup any meet,bookMeeting
+find all available meet on December 14,bookMeeting
+identify available meet between 13:3 and 12:14,bookMeeting
+show me available meeting between 11:38 and 2:37,bookMeeting
+schedule hall from 7:25 to 12:3 on 7 of February,bookMeeting
+fix meeting from 6:25 pm to 10:04 pm on 21/12,bookMeeting
+show some meeting on 14 of jun,bookMeeting
+book meeting from 6:48 to 13:06 on March 13,bookMeeting
+search all room on 9 of November,bookMeeting
+reserve available room from 22:23 to 6:57 on October 9,bookMeeting
+book available room from 16:37 to 10:5,bookMeeting
+identify available meeting on 23th of March,bookMeeting
+look for any hall on 23th of july,bookMeeting
+search available hall between 4:6 and 23:12,bookMeeting
+arrange meeting from 8:2 to 4:38 pm on 11/9,bookMeeting
+search available meeting between 12:39 and 9:46 pm,bookMeeting
+show any available room between 7:33 and 21:2,bookMeeting
+schedule room from 3:31 to 15:57,bookMeeting
+book available meeting from 19:8 to 10:14 on 27th of October,bookMeeting
+find some available hall on August 18th,bookMeeting
+setup room from 3:05 to 6:17 pm on 18th of apr,bookMeeting
+show any available room between 1:09 pm and 10:26 am,bookMeeting
+find all meet on jun 15,bookMeeting
+arrange available room from 23:04 to 17:42 on 5 of October,bookMeeting
+schedule available meet from 2:32 to 3:36 on 1st of February,bookMeeting
+identify all available meet on 3 of nov,bookMeeting
+reserve hall from 6:07 am to 9:44,bookMeeting
+book meeting from 7:26 pm to 7:5 on oct 18,bookMeeting
+book room from 3:7 to 2:13 on 4 of October,bookMeeting
+find any meet on 20 of May,bookMeeting
+show me available room on mar 31,bookMeeting
+book meeting,bookMeeting
+show some available meeting between 7:5 pm and 5:45,bookMeeting
+identify some hall on 6/8,bookMeeting
+arrange room from 10:47 pm to 6:08,bookMeeting
+fix any available meet,bookMeeting
+reserve available hall from 2:3 am to 3:48 pm on December 15,bookMeeting
+reserve available room from 3:00 pm to 8:16 on 31 of September,bookMeeting
+find all meeting between 5:38 am and 1:18,bookMeeting
+show all available room between 3:39 am and 12:49,bookMeeting
+search any meet on 20th of jun,bookMeeting
+show me room between 0:08 and 10:0,bookMeeting
+show meet between 9:6 and 9:22,bookMeeting
+reserve any meeting,bookMeeting
+search some available hall on 25th of feb,bookMeeting
+show some hall between 11:18 am and 8:01 pm,bookMeeting
+identify any meet on 8/10,bookMeeting
+fix available meeting from 22:21 to 12:54 on apr 15th,bookMeeting
+book meeting from 9:53 am to 5:47 on 12th of oct,bookMeeting
+identify available meeting between 17:53 and 8:55 pm,bookMeeting
+book any available room,bookMeeting
+show me any available meeting between 10:28 and 11:48 pm,bookMeeting
+look for some room on 13/4,bookMeeting
+setup available hall from 4:43 to 11:8 pm on August 20th,bookMeeting
+show any available hall between 1:04 pm and 23:50,bookMeeting
+reserve all available meeting,bookMeeting
+fix available meet from 9:05 am to 3:27 on 8 of November,bookMeeting
+find some hall on 15 of oct,bookMeeting
+arrange meeting from 10:12 to 18:31,bookMeeting
+identify some available meeting between 7:5 and 3:59 am,bookMeeting
+fix any room,bookMeeting
+search all available meeting,bookMeeting
+reserve available hall from 0:07 to 11:6 pm,bookMeeting
+look for some meeting between 14:1 and 2:30,bookMeeting
+show any room between 0:06 pm and 5:19,bookMeeting
+fix available room from 2:10 am to 4:3 on mar 18th,bookMeeting
+schedule any available room,bookMeeting
+search some available meet on March 29th,bookMeeting
+fix room from 0:35 to 2:2 pm,bookMeeting
+search room on 20 of April,bookMeeting
+identify some available meeting on 4th of August,bookMeeting
+reserve available room from 10:36 to 0:8,bookMeeting
+identify any available room between 1:37 and 7:07 pm,bookMeeting
+book meeting from 8:8 pm to 7:4 on April 4th,bookMeeting
+identify some available hall on 28/11,bookMeeting
+setup hall from 9:05 to 0:27,bookMeeting
+identify any available meeting between 6:19 am and 8:05,bookMeeting
+show all available meeting between 23:5 and 10:8 pm,bookMeeting
+look for meet on August 20th,bookMeeting
+search all available room on 2 of March,bookMeeting
+search some room between 2:01 am and 8:25 am,bookMeeting
+setup available meet from 17:41 to 8:34 pm,bookMeeting
+show me all available meeting between 10:13 am and 22:12,bookMeeting
+look for all meeting on July 31th,bookMeeting
+fix any available room,bookMeeting
+fix available room from 14:13 to 1:53 am on June 2,bookMeeting
+show me all meet on 26th of jun,bookMeeting
+identify hall on 31 of May,bookMeeting
+identify some available hall on oct 25th,bookMeeting
+reserve meeting from 14:0 to 15:47,bookMeeting
+fix room from 1:52 to 7:04 am,bookMeeting
+fix available meet from 3:21 pm to 6:55,bookMeeting
+reserve hall from 5:4 am to 9:51 am,bookMeeting
+book meet from 15:7 to 15:14 on feb 10th,bookMeeting
+look for any meeting on 6/8,bookMeeting
+book available hall from 5:59 am to 23:57 on 7th of mar,bookMeeting
+setup meeting from 3:34 am to 0:15 on july 4,bookMeeting
+identify some meeting on 8 of feb,bookMeeting
+identify some meet on July 12th,bookMeeting
+show some meeting between 5:51 pm and 4:5,bookMeeting
+fix meeting from 8:05 to 4:25 pm,bookMeeting
+look for any available meet between 7:48 am and 18:01,bookMeeting
+find any meeting on 14th of may,bookMeeting
+search any meet between 6:13 and 10:9,bookMeeting
+find all available hall,bookMeeting
+arrange available hall from 9:1 am to 9:14,bookMeeting
+identify available meeting,bookMeeting
+reserve available meet from 3:03 to 10:19 am,bookMeeting
+setup all available meeting,bookMeeting
+show some hall between 1:26 pm and 11:41 am,bookMeeting
+reserve available meeting from 16:28 to 23:22,bookMeeting
+look for any available hall between 8:53 and 6:24,bookMeeting
+search any available hall between 11:43 am and 13:24,bookMeeting
+setup meeting from 23:08 to 23:11,bookMeeting
+reserve meet from 3:49 am to 1:29,bookMeeting
+search all available room on June 10,bookMeeting
+schedule some available room,bookMeeting
+find all hall between 1:14 and 21:40,bookMeeting
+setup meeting from 17:42 to 17:39 on jun 26th,bookMeeting
+setup available meet from 0:30 to 5:44,bookMeeting
+book room from 0:06 am to 0:02 am on 7th of mar,bookMeeting
+fix any available hall,bookMeeting
+reserve room from 13:53 to 0:10 pm,bookMeeting
+identify meeting between 0:21 pm and 10:12,bookMeeting
+schedule available room from 2:9 to 6:39 am on 5 of June,bookMeeting
+setup available meeting from 3:23 pm to 9:31,bookMeeting
+identify any hall on 9 of nov,bookMeeting
+find all available meeting between 22:7 and 3:37,bookMeeting
+show me some available meeting on 9th of sept,bookMeeting
+show me any available hall between 0:38 am and 2:13,bookMeeting
+book hall from 11:08 to 3:14 on dec 19th,bookMeeting
+setup available room from 3:02 to 8:54,bookMeeting
+find some available hall on 12/7,bookMeeting
+identify some available room between 0:15 and 8:50,bookMeeting
+find all available hall on October 5th,bookMeeting
+look for meet between 10:46 and 8:45 am,bookMeeting
+search some meeting on 22 of may,bookMeeting
+fix available meet from 11:7 pm to 4:49 pm,bookMeeting
+identify some room on 1st of feb,bookMeeting
+fix available hall from 20:48 to 7:47 pm on 27th of May,bookMeeting
+setup room from 6:45 to 10:04 on 25th of October,bookMeeting
+book hall from 9:35 to 6:7 on 2 of apr,bookMeeting
+search available room between 10:30 and 12:46 pm,bookMeeting
+search some available hall between 10:53 and 11:33 pm,bookMeeting
+book hall from 11:6 to 3:04 am on 27th of dec,bookMeeting
+look for hall on jun 22,bookMeeting
+show any hall between 9:00 and 12:20,bookMeeting
+find hall between 0:29 and 6:47 pm,bookMeeting
+identify all hall on 24 of aug,bookMeeting
+book available meet from 10:02 am to 11:1 on August 28th,bookMeeting
+setup available meeting from 8:05 pm to 9:48,bookMeeting
+schedule meeting from 7:35 to 22:8 on 22th of jan,bookMeeting
+show me meeting on January 9th,bookMeeting
+fix room from 3:36 to 8:48,bookMeeting
+search all meet between 4:06 and 22:25,bookMeeting
+setup meet from 9:36 to 22:39 on 12 of jan,bookMeeting
+show me all room on August 17,bookMeeting
+find available meeting on mar 7th,bookMeeting
+arrange available meet from 9:16 am to 20:24 on 21th of oct,bookMeeting
+look for available meeting on 12th of feb,bookMeeting
+show available meeting between 9:12 and 11:58,bookMeeting
+find meet on 30th of feb,bookMeeting
+reserve available meet from 10:29 to 11:30 am,bookMeeting
+show all available room on 9th of mar,bookMeeting
+arrange meet from 11:19 am to 4:38 am on 11th of jun,bookMeeting
+identify all available meeting on apr 4,bookMeeting
+reserve meeting from 6:26 to 14:46,bookMeeting
+show any available hall between 1:38 am and 7:33 pm,bookMeeting
+book available room from 4:2 am to 10:30 am,bookMeeting
+find any meet on sept 25th,bookMeeting
+arrange available room from 4:38 pm to 12:18 on 3 of sept,bookMeeting
+show room between 9:54 and 10:42,bookMeeting
+book hall from 2:12 to 20:16 on August 1st,bookMeeting
+fix all meeting,bookMeeting
+look for any available hall on 14 of January,bookMeeting
+reserve available meet from 5:1 to 20:12 on 13th of October,bookMeeting
+identify all available meet between 11:2 and 3:39 am,bookMeeting
+reserve available meet from 17:22 to 9:29 am on 4th of September,bookMeeting
+look for all available room between 11:11 and 8:13 am,bookMeeting
+fix hall from 7:01 pm to 3:5 pm,bookMeeting
+arrange any available meet,bookMeeting
+look for available meet between 0:5 and 23:00,bookMeeting
+setup room from 7 pm to 5:53 am on aug 6th,bookMeeting
+search all meeting on March 6,bookMeeting
+schedule available room from 11:39 to 9:5,bookMeeting
+setup room from 11:12 am to 14:14,bookMeeting
+arrange meet,bookMeeting
+schedule available hall from 16:50 to 0:35 on mar 24,bookMeeting
+arrange hall from 17:16 to 4:17,bookMeeting
+look for hall between 2:21 pm and 12:9 am,bookMeeting
+find all hall on 29th of oct,bookMeeting
+identify available meeting on 4 of August,bookMeeting
+schedule room from 10:4 to 21:6,bookMeeting
+setup available room from 12:01 to 12:56,bookMeeting
+book meet from 15:18 to 10:2 pm on 2nd of dec,bookMeeting
+reserve available hall from 0:7 pm to 12:20 am on sept 22th,bookMeeting
+look for all meeting on 11/12,bookMeeting
+reserve meet from 0:08 to 1:08 am on December 3rd,bookMeeting
+setup available meeting from 18:58 to 10:0 am,bookMeeting
+show me some room on may 23,bookMeeting
+search available room on 24/12,bookMeeting
+show some available room between 2:35 and 4:51,bookMeeting
+reserve meeting from 6:34 am to 22:33 on 22 of may,bookMeeting
+show available hall between 3:11 and 6:16,bookMeeting
+book available meet from 4:52 am to 7:9,bookMeeting
+find some available room between 9:11 pm and 1:34,bookMeeting
+book available meet from 0:34 pm to 8:46 am on March 21,bookMeeting
+schedule available meeting,bookMeeting
+setup some available meeting,bookMeeting
+look for some available meet on May 7th,bookMeeting
+setup hall,bookMeeting
+schedule room from 12:04 to 10:9,bookMeeting
+fix meeting from 6:11 to 3:28,bookMeeting
+identify any room between 5:16 and 1:35 am,bookMeeting
+fix room from 4:6 am to 4:53 pm,bookMeeting
+find all hall between 20:59 and 4:06 pm,bookMeeting
+fix meeting from 4:1 pm to 6:01 on January 24,bookMeeting
+find room between 7:10 and 8:41 pm,bookMeeting
+book meeting from 3:5 pm to 11:00 am,bookMeeting
+book meet from 6:54 am to 0:25 on apr 28th,bookMeeting
+book available room from 3:53 to 0:3 am on 8th of June,bookMeeting
+arrange available meet from 6:04 to 17:28,bookMeeting
+book meeting from 12:29 to 4:14 on 18th of January,bookMeeting
+look for some available meet,bookMeeting
+book meet from 12:41 pm to 11:58 on November 28th,bookMeeting
+schedule meeting from 11:22 to 2:3 am,bookMeeting
+find any available meet between 10:0 and 5:45 pm,bookMeeting
+search some available meeting,bookMeeting
+book meet from 3:58 pm to 10:1 pm,bookMeeting
+show me all meeting between 4:4 pm and 2:22 am,bookMeeting
+show me all available meeting between 6:53 pm and 5:49 pm,bookMeeting
+find meeting between 9:22 am and 0:1 pm,bookMeeting
+reserve available room from 13:7 to 4:10 pm on 10th of may,bookMeeting
+find some meeting between 0:25 and 21:3,bookMeeting
+book meeting from 2:02 to 22:54 on 16th of nov,bookMeeting
+look for all room on oct 31th,bookMeeting
+show available meet on 15th of November,bookMeeting
+show all available meeting on jan 5,bookMeeting
+book meeting from 7:27 pm to 2:51 am,bookMeeting
+search all available meeting on may 8,bookMeeting
+look for available meet on 22 of October,bookMeeting
+show me hall between 2:8 and 7:11,bookMeeting
+reserve room from 3:20 to 9:09 on 21/1,bookMeeting
+arrange meet from 2:4 to 1:53 on 28/8,bookMeeting
+reserve available meeting from 8:16 pm to 9:54 pm,bookMeeting
+arrange available meet from 7:16 to 3:07 on 10 of july,bookMeeting
+reserve hall from 12:45 to 1:15,bookMeeting
+look for any available meeting on August 22,bookMeeting
+look for room between 5:59 and 0:23,bookMeeting
+show me all available meeting on 19th of November,bookMeeting
+fix room from 10:2 pm to 15:3,bookMeeting
+show me all meet on 15 of October,bookMeeting
+fix meeting from 10:54 pm to 2:55,bookMeeting
+show me any room between 4:05 am and 12:41,bookMeeting
+fix hall from 8:56 pm to 6:46 am,bookMeeting
+find any available meet between 5:44 am and 11:19,bookMeeting
+setup meet from 1:54 pm to 9:32 on 22 of jun,bookMeeting
+book all available meeting,bookMeeting
+schedule available hall from 11:28 pm to 7:26 on 3 of November,bookMeeting
+arrange available room from 5:43 to 5:20,bookMeeting
+look for all meet on 22 of January,bookMeeting
+reserve room from 0:40 am to 7:20,bookMeeting
+identify all meeting on apr 26,bookMeeting
+arrange available hall from 15:05 to 16:43,bookMeeting
+find all available meet between 2:47 and 9:16,bookMeeting
+fix room from 4:03 to 22:08,bookMeeting
+search all meeting on December 3rd,bookMeeting
+setup available room from 2:27 to 7:30 on August 19,bookMeeting
+look for available hall on May 6,bookMeeting
+schedule available meet from 9:18 to 0:13,bookMeeting
+fix room from 0:12 am to 22:13,bookMeeting
+search any meeting on 11 of January,bookMeeting
+arrange available meeting from 8:1 am to 12:40 am,bookMeeting
+setup meet from 7:0 to 11:44 pm,bookMeeting
+reserve available hall from 3:52 to 0:12 on apr 8th,bookMeeting
+look for all available meet on 14/7,bookMeeting
+fix meet from 9:06 pm to 12:44 pm on 3rd of may,bookMeeting
+book any hall,bookMeeting
+fix available hall from 15:52 to 4:20 am on 7/3,bookMeeting
+identify any meet on 16 of may,bookMeeting
+look for all available meet between 8:40 and 10:31,bookMeeting
+book available meeting from 0:50 pm to 7:34 on 4th of October,bookMeeting
+setup meeting,bookMeeting
+setup meeting from 22:07 to 1:25,bookMeeting
+search any room on 14/9,bookMeeting
+schedule available hall from 19:04 to 0:36 pm on 19/11,bookMeeting
+book available hall from 12:53 am to 8:43 on August 21th,bookMeeting
+schedule room from 3:17 to 2:12,bookMeeting
+arrange meet from 7:23 to 1:58 on 1st of February,bookMeeting
+identify all available meet on 11 of oct,bookMeeting
+find any room on nov 25th,bookMeeting
+book room from 15:33 to 11:41 pm,bookMeeting
+show all meeting between 2:32 and 10:3 am,bookMeeting
+setup available meet from 17:4 to 22:4,bookMeeting
+arrange available room from 8:23 to 2:53 pm,bookMeeting
+reserve meeting from 21:45 to 3:52 am on 30th of February,bookMeeting
+fix hall from 19:47 to 9:05 pm,bookMeeting
+schedule hall from 1:23 to 12:00 am on 6 of aug,bookMeeting
+book available meeting from 0:04 to 0:26 am,bookMeeting
+book all available meet,bookMeeting
+show all meet on oct 9th,bookMeeting
+identify available room between 8:29 and 2:59,bookMeeting
+identify some available meeting on 26th of January,bookMeeting
+arrange meeting from 2:13 to 4:52,bookMeeting
+book available meeting from 23:07 to 10:04 on 5th of dec,bookMeeting
+reserve available hall from 10:24 to 0:32 am,bookMeeting
+search some meeting on 26 of May,bookMeeting
+arrange available room from 2:50 am to 23:28,bookMeeting
+look for some available room on April 5,bookMeeting
+show meeting on 13/9,bookMeeting
+schedule hall from 4:12 to 12:33 am,bookMeeting
+fix room from 16:02 to 5:21 am on 25th of jun,bookMeeting
+look for all hall between 6:52 am and 4:52 am,bookMeeting
+schedule hall from 5:03 to 22:55,bookMeeting
+arrange available meet from 15:35 to 1:38 am on dec 21th,bookMeeting
+show me all available meet between 1:58 and 13:04,bookMeeting
+setup available meet from 0:50 to 12:8 am,bookMeeting
+look for all room on March 10,bookMeeting
+book available meet from 16:28 to 9:32 am on 10/11,bookMeeting
+fix all meet,bookMeeting
+search all room between 16:17 and 14:43,bookMeeting
+search any available meet between 19:24 and 7:31,bookMeeting
+reserve available room from 18:28 to 12:4,bookMeeting
+find available meeting on 13th of November,bookMeeting
+show all meet between 0:0 and 5:41,bookMeeting
+find all hall between 23:26 and 11:23,bookMeeting
+setup meeting from 5:32 to 13:47 on January 25,bookMeeting
+identify all meeting between 7:05 and 7:1 am,bookMeeting
+find meeting on 30th of October,bookMeeting
+reserve available room from 8:02 to 2:11 on 4 of july,bookMeeting
+arrange available hall from 10:05 pm to 1:54,bookMeeting
+fix available hall from 5:09 pm to 4:06 pm,bookMeeting
+arrange available room from 10:09 am to 12:8 pm on feb 15th,bookMeeting
+reserve hall from 2:9 to 10:33 pm on 25 of jan,bookMeeting
+identify some hall on jan 12,bookMeeting
+show me any available meet on 23 of feb,bookMeeting
+reserve hall from 5:17 pm to 9:49,bookMeeting
+find available room,bookMeeting
+show meet on 20th of sept,bookMeeting
+fix room from 5:59 to 4:14 on 6 of July,bookMeeting
+find some hall between 12:38 pm and 8:52 pm,bookMeeting
+show all meet on 31 of mar,bookMeeting
+arrange hall from 2:48 to 18:56,bookMeeting
+arrange some available room,bookMeeting
+arrange all meeting,bookMeeting
+fix available room from 11:00 to 23:9,bookMeeting
+find all available hall between 6:07 am and 21:03,bookMeeting
+arrange room from 22:55 to 4:44 am,bookMeeting
+show me all room between 5:20 am and 6:42 am,bookMeeting
+schedule meeting from 12:49 to 1:42 am,bookMeeting
+show me all room between 4:06 and 0:44,bookMeeting
+schedule available meeting from 20:00 to 4:04,bookMeeting
+search room between 3:0 and 4:17 am,bookMeeting
+fix available meet from 3:32 am to 9:4 pm,bookMeeting
+arrange meet from 21:0 to 2:01 am,bookMeeting
+find any meet between 3:26 am and 15:00,bookMeeting
+identify any meet between 8:42 and 6:14,bookMeeting
+search some meeting on 6th of july,bookMeeting
+book available room from 20:36 to 13:05,bookMeeting
+look for hall on 10 of April,bookMeeting
+identify some available room on March 25,bookMeeting
+schedule meeting from 0:46 pm to 3:14 am,bookMeeting
+arrange available meet from 17:56 to 0:6,bookMeeting
+search any available hall between 9:20 am and 3:7 pm,bookMeeting
+find some available meeting between 5:42 pm and 6:57 am,bookMeeting
+show me all meet between 0:49 and 5:8,bookMeeting
+identify some available room between 9:50 and 10:50 am,bookMeeting
+fix available meeting from 5:12 to 0:15 on apr 28th,bookMeeting
+search all room on August 18th,bookMeeting
+look for some meeting between 8:51 and 3:15 am,bookMeeting
+reserve available meeting from 3:45 to 4:18 on 31 of March,bookMeeting
+book hall from 23:49 to 9:19 am,bookMeeting
+schedule room from 6:1 pm to 7:16,bookMeeting
+setup available meet from 10:30 pm to 7:29 am on 1st of February,bookMeeting
+schedule available meeting from 0:52 to 5:06 on 31th of nov,bookMeeting
+reserve available room from 12:5 pm to 1:45 on jun 11th,bookMeeting
+arrange available meet from 10:10 pm to 0:49,bookMeeting
+fix meet from 3:21 am to 5:53,bookMeeting
+find all available room between 11:7 and 12:28,bookMeeting
+show available meeting on jan 14th,bookMeeting
+identify all available meet on 17 of March,bookMeeting
+fix all available meeting,bookMeeting
+fix hall from 8:11 pm to 4:7 pm,bookMeeting
+show some available room between 7:38 and 4:26 am,bookMeeting
+find room on 22th of April,bookMeeting
+arrange hall from 8:20 pm to 4:42 pm on sept 20th,bookMeeting
+book hall from 10:17 to 21:17,bookMeeting
+look for some available room,bookMeeting
+arrange some room,bookMeeting
+fix hall from 19:0 to 23:44,bookMeeting
+reserve room from 0:38 to 6:58,bookMeeting
+show me some room between 6:2 and 21:03,bookMeeting
+schedule available meet from 3:08 am to 1:37 on 19th of September,bookMeeting
+look for available hall between 7:34 pm and 17:20,bookMeeting
+identify available meet between 10:55 am and 2:49,bookMeeting
+identify some room on July 29,bookMeeting
+show any room between 1:49 and 11:11,bookMeeting
+search any room on 9/9,bookMeeting
+look for all meeting on 7 of mar,bookMeeting
+find all meeting on October 30th,bookMeeting
+find all available room,bookMeeting
+find some meet on 27th of july,bookMeeting
+schedule available room from 12:03 am to 7:7 am,bookMeeting
+arrange meeting from 6:1 to 6:17 on 6 of jan,bookMeeting
+setup meeting from 12:06 to 6:4,bookMeeting
+identify any meet between 6:7 and 0:2 am,bookMeeting
+book available meeting from 9:32 to 19:01,bookMeeting
+arrange hall from 11:13 am to 18:0 on 2nd of oct,bookMeeting
+setup meeting from 11:1 to 9:24 pm on December 20,bookMeeting
+schedule available meet from 9:11 am to 5:59 pm on jun 2nd,bookMeeting
+search all available hall on May 4th,bookMeeting
+search hall between 1:5 pm and 6:33 pm,bookMeeting
+reserve meet from 8:50 to 4:9 pm on 17 of feb,bookMeeting
+identify all room on 17 of October,bookMeeting
+show me all hall between 8:9 and 1:09,bookMeeting
+fix meet from 14:38 to 10:21 pm,bookMeeting
+reserve room from 21:37 to 1:6 pm on 22 of mar,bookMeeting
+reserve meet from 6:32 to 13:42,bookMeeting
+show me available room between 8:44 pm and 4:05 pm,bookMeeting
+find some meeting on 30/6,bookMeeting
+show me any meeting on September 20th,bookMeeting
+setup meet from 6:34 to 9:7,bookMeeting
+schedule room from 9:57 to 14:40 on mar 10,bookMeeting
+show me some meet on 22 of January,bookMeeting
+book available meeting from 5:14 to 12:31 am,bookMeeting
+search some available room on 4th of June,bookMeeting
+identify all available hall on 12/12,bookMeeting
+schedule available room from 4:53 pm to 14:33 on October 13th,bookMeeting
+search all room between 2:35 and 9:26,bookMeeting
+show any hall on October 1st,bookMeeting
+schedule available room from 2:27 am to 0:25 pm on 6/11,bookMeeting
+arrange meet from 0:43 to 18:7 on September 27,bookMeeting
+setup available meeting from 0:05 am to 8:07 am,bookMeeting
+reserve meet,bookMeeting
+book available room from 12:43 to 10:17,bookMeeting
+show any available room between 4:12 and 7:47,bookMeeting
+book available hall from 11:16 am to 4:6,bookMeeting
+search room on 14 of December,bookMeeting
+arrange available meet from 2:06 pm to 1:25,bookMeeting
+show available meet between 12:5 and 10:51,bookMeeting
+search meeting between 10:0 and 1:24 am,bookMeeting
+arrange room from 5:32 am to 2:33 am,bookMeeting
+reserve room from 1:55 am to 23:53,bookMeeting
+show all available meeting between 5:40 and 11:24,bookMeeting
+arrange available hall from 5:45 pm to 6:00 pm on 1 of dec,bookMeeting
+identify some meet on July 10,bookMeeting
+search all meet on 21th of apr,bookMeeting
+look for all available meeting between 0:36 and 5:20 pm,bookMeeting
+search some available meet between 9:33 and 23:48,bookMeeting
+look for any meet between 5:04 am and 12:52 am,bookMeeting
+reserve all available meet,bookMeeting
+find some meeting on dec 17,bookMeeting
+fix available meeting from 11:8 to 21:8 on 9/1,bookMeeting
+fix hall from 6:04 pm to 14:14,bookMeeting
+setup available hall from 8:26 pm to 0:05 pm,bookMeeting
+identify available meet on February 18,bookMeeting
+look for all meeting between 11:08 pm and 4:46,bookMeeting
+fix available hall from 9:47 pm to 6:37,bookMeeting
+setup room from 2:36 pm to 9:2 am on 11th of April,bookMeeting
+look for all hall on 7th of apr,bookMeeting
+arrange available meet from 11:5 am to 5:25,bookMeeting
+look for any meet between 6:12 am and 9:16,bookMeeting
+schedule meeting from 22:43 to 16:39 on 30th of April,bookMeeting
+book available meeting from 7:04 pm to 21:22 on 9 of july,bookMeeting
+arrange available meeting from 16:7 to 11:56,bookMeeting
+show available meeting between 5:49 and 11:2 am,bookMeeting
+find hall between 14:37 and 12:49,bookMeeting
+reserve available room from 20:31 to 9:30 am on 21th of April,bookMeeting
+find some available hall on july 12,bookMeeting
+fix meeting from 7:10 to 12:25 on October 16,bookMeeting
+show me all available meeting between 16:40 and 4:48 am,bookMeeting
+find all meeting on 20th of August,bookMeeting
+schedule available meet from 1:16 to 5:36 am,bookMeeting
+search all available room between 19:59 and 9:52,bookMeeting
+show some room between 8:12 and 2:42,bookMeeting
+setup available hall from 10:34 to 19:46 on 23/3,bookMeeting
+look for some room between 18:47 and 12:14,bookMeeting
+identify any meet between 13:5 and 12:44 pm,bookMeeting
+show all available hall on 24th of jun,bookMeeting
+show me meet between 4:26 pm and 10:41,bookMeeting
+look for available hall on 21th of September,bookMeeting
+fix meeting from 12:16 am to 6:4 pm,bookMeeting
