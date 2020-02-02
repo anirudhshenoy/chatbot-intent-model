@@ -3,8 +3,8 @@ import csv
 
 if __name__ == '__main__':
 
-    files = ['testing_dataset.json', 'training_dataset.json']
-    filenames = ['chatito_test.csv', 'chatito_train.csv']
+    files = ['training_dataset.json']
+    filenames = ['chatito_train.csv']
     for file, filename in zip(files, filenames):
         with open(file) as f:
             data = json.load(f)

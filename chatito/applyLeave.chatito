@@ -1,0 +1,25 @@
+import ./common.chatito
+
+%[applyLeave]('training': '1000')
+    *[45%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[typeOfLeave?] ~[leave] on @[bookDate]
+    *[45%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[typeOfLeave?] ~[leave] 
+    *[10%] ~[apply?] ~[typeOfLeave?] ~[leave]
+~[apply]
+    apply
+    request
+    application
+    avail
+    get
+
+~[leave]
+    leave
+    vacation
+    take work off
+
+~[typeOfLeave]
+    casual
+    sick
+    maternity
+    paternity
+    medical
+    earned

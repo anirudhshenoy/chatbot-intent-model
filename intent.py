@@ -82,7 +82,8 @@ def reply(intent):
         'greet' : 'Hello!',
         'bye' : 'See you later!',
         'negative' : 'Cancelled!',
-        'bookMeeting' : 'Ok scheduling a meeting'
+        'bookMeeting' : 'Ok scheduling a meeting',
+        'applyLeave' : 'Ok apply for leave'
     }
 
     print('BOT: ' + responses[intent])
@@ -104,15 +105,7 @@ def test_pipeline(user_input, model):
 if __name__  == '__main__':
     #nltk.download('punkt')
     glove = Magnitude("glove.twitter.27B.50d.magnitude")
-    train_data = pd.read_csv('chatito_train.csv')
-    #train_features, y_train = avg_glove(train_data, glove)
-    #y_train = [1 if y == 'complaint_status' else 0 for y in y_train]
-
-    test_data = pd.read_csv('chatito_test.csv')
-    #test_features, y_test = avg_glove(test_data, glove)
-    #y_test = [1 if y == 'complaint_status' else 0 for y in y_test]
-
-    data = pd.concat([train_data, test_data])
+    data = pd.read_csv('chatito_train.csv')
     features, y = avg_glove(data, glove)
     model = train_model(features, y)
 
