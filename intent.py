@@ -1,4 +1,4 @@
-from pymagnitude import *
+from pymagnitude import Magnitude
 import nltk
 from nltk import word_tokenize
 from sklearn.linear_model import SGDClassifier
@@ -7,6 +7,7 @@ from sklearn.model_selection import GridSearchCV
 from tqdm import tqdm
 import pandas as pd
 import spacy
+import numpy as np
 
 import matplotlib.pyplot as plt
 from sklearn.metrics import precision_recall_curve, f1_score, accuracy_score, roc_auc_score, confusion_matrix
@@ -53,7 +54,7 @@ def print_model_metrics(y_test, y_test_prob, confusion = False, verbose = True, 
 
 def run_svc(train_features, test_features, y_train, y_test, alpha = 1e-6, return_f1 = True, verbose = True):
     #svm = SGDClassifier(loss = 'log', alpha = alpha, n_jobs = -1, penalty = 'l2') # change to hinge loss
-    svm = LinearSVC()
+    svm = SVC()
     svm.fit(train_features, y_train) 
     y_test_prob = svm.predict(test_features)
     print(accuracy_score(y_test_prob, y_test))
@@ -68,14 +69,17 @@ def avg_glove(df, glove):
 
 def train_model(features, y):
     svm = SVC(gamma = 'scale', probability = True)
-    params = {'C' : [0.01, 0.1, 1, 10, 100, 1000]}
-    grid = GridSearchCV(svm, params, cv = 3, n_jobs = -1, scoring = 'accuracy', verbose = 2, refit = True)
+    params = {'C' : [0.01, 0.1, 1, 10, 50, 100, 1000]}
+    grid = GridSearchCV(svm, params, cv = 3, n_jobs = -1, scoring = 'roc_auc_ovr', verbose = 2, refit = True)
     grid.fit(features,y)
     print(grid.best_params_)
     return grid.best_estimator_
 
 
-def reply(intent):
+def reply(intent, entities):
+    if intent == 'applyLeave':
+        response = 'Applying for leave on ' + str(entities[0]) 
+    """
     responses = {
         'findRestaurantsByCity' : 'I see you\'re hungry! Do you want me to look for restaurants',
         'affirmative' : 'Alright! I\'ll do that', 
@@ -85,8 +89,8 @@ def reply(intent):
         'bookMeeting' : 'Ok scheduling a meeting',
         'applyLeave' : 'Ok apply for leave'
     }
-
-    print('BOT: ' + responses[intent])
+    """
+    print('BOT: ' + response)
 
 
 
@@ -99,12 +103,12 @@ def test_pipeline(user_input, model):
     print(intent)
     print(entities.ents)
     print(model.predict_proba(feature.reshape(1, -1)))
-    reply(intent[0])
+    reply(intent[0], entities.ents)
 
 
 if __name__  == '__main__':
     #nltk.download('punkt')
-    glove = Magnitude("glove.twitter.27B.50d.magnitude")
+    glove = Magnitude("glove.twitter.27B.100d.magnitude")
     data = pd.read_csv('chatito_train.csv')
     features, y = avg_glove(data, glove)
     model = train_model(features, y)

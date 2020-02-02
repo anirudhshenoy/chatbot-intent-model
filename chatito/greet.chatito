@@ -2,7 +2,7 @@
 
 import ./common.chatito
 
-%[greet]('training': '50', 'testing': '50')
+%[greet]('training': '100')
     *[20%] ~[hi]
     ~[greetings]
     ~[hi] ~[greetings?]
