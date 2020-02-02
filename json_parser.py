@@ -18,12 +18,13 @@ if __name__ == '__main__':
  #           if intent == 'applyLeave':
             for line in data[intent]:
                 sentence = ''
+                entity = []
                 for value in line:
-                    entity = []
                     if value['type'] == 'Slot':
                         entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
                     sentence += value['value']
                 if entity:
+                    print(entity)
                     entity_data.append((sentence, {'entities' : entity}))
                 lines.append({'data' : sentence, 'intent' : intent})
 
@@ -31,7 +32,7 @@ if __name__ == '__main__':
             writer = csv.DictWriter(csvfile, fieldnames = fields)
             writer.writeheader()
             writer.writerows(lines)
-        entity_file = open('entity_train_data.pkl', 'ab') 
+        entity_file = open('entity_train_data.pkl', 'wb') 
         pickle.dump(entity_data, entity_file)
         entity_file.close()
         
