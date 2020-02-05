@@ -10,8 +10,6 @@ import spacy
 from prettytable import PrettyTable
 import numpy as np
 
-from sklearn.metrics import precision_recall_curve, f1_score, accuracy_score, roc_auc_score, confusion_matrix
-
     
 # Compute Average W2V for each datapoint
 def avg_glove(df, glove):
@@ -55,11 +53,11 @@ def print_confidence_table(intents, confidence_scores):
 #             -> Tuned SVM Model -> Intent 
 # User Input |
 #             -> Spacy Entity Model -> Entities 
-def test_pipeline(user_input, model):
+def test_pipeline(user_input, model, vectors):
     nlp = spacy.load('custom_ner')
     entities = nlp(user_input)
 
-    feature = np.average(glove.query(word_tokenize(user_input)), axis = 0)
+    feature = np.average(vectors.query(word_tokenize(user_input)), axis = 0)
     intent = model.predict(feature.reshape(1, -1))
     confidence_scores = model.predict_proba(feature.reshape(1,-1))
     confidence_scores = [round(score, 2) for score in confidence_scores[0]]
@@ -71,12 +69,13 @@ def test_pipeline(user_input, model):
 
 if __name__  == '__main__':
     #nltk.download('punkt')
-    glove = Magnitude("glove.twitter.27B.100d.magnitude")
+    #vectors = Magnitude("glove.twitter.27B.100d.magnitude")
+    vectors = Magnitude("crawl-300d-2M.magnitude")
     data = pd.read_csv('chatito_train.csv')
-    features, y = avg_glove(data, glove)
+    features, y = avg_glove(data, vectors)
     model = train_model(features, y)
 
     print('Ready!\n')
     while True:
-        test_pipeline(input(), model)
+        test_pipeline(input(), model, vectors)
 
