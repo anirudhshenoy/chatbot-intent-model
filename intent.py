@@ -7,83 +7,33 @@ from sklearn.model_selection import GridSearchCV
 from tqdm import tqdm
 import pandas as pd
 import spacy
+from prettytable import PrettyTable
 import numpy as np
 
-import matplotlib.pyplot as plt
 from sklearn.metrics import precision_recall_curve, f1_score, accuracy_score, roc_auc_score, confusion_matrix
-import seaborn as sns
-sns.set_palette("muted")
+
     
-
-def calc_f1(p_and_r):
-    p, r = p_and_r
-    return (2*p*r)/(p+r)
-
-
-# Print the F1, Precision, Recall, ROC-AUC, and Accuracy Metrics 
-# Since we are optimizing for F1 score - we will first calculate precision and recall and 
-# then find the probability threshold value that gives us the best F1 score
-
-def print_model_metrics(y_test, y_test_prob, confusion = False, verbose = True, return_metrics = False):
-
-    precision, recall, threshold = precision_recall_curve(y_test, y_test_prob, pos_label = 1)
-    
-    #Find the threshold value that gives the best F1 Score
-    best_f1_index =np.argmax([calc_f1(p_r) for p_r in zip(precision, recall)])
-    best_threshold, best_precision, best_recall = threshold[best_f1_index], precision[best_f1_index], recall[best_f1_index]
-    
-    # Calulcate predictions based on the threshold value
-    y_test_pred = np.where(y_test_prob > best_threshold, 1, 0)
-
-    print(y_test_pred)
-    
-    # Calculate all metrics
-    f1 = f1_score(y_test, y_test_pred, pos_label = 1, average = 'binary')
-    roc_auc = roc_auc_score(y_test, y_test_prob)
-    acc = accuracy_score(y_test, y_test_pred)
-          
-    if verbose:
-        print('F1: {:.3f} | Pr: {:.3f} | Re: {:.3f} | AUC: {:.3f} | Accuracy: {:.3f} \n'.format(f1, best_precision, best_recall, roc_auc, acc))
-    
-    if return_metrics:
-        return np.array([f1, best_precision, best_recall, roc_auc, acc])
-
-
-
-
-
-def run_svc(train_features, test_features, y_train, y_test, alpha = 1e-6, return_f1 = True, verbose = True):
-    #svm = SGDClassifier(loss = 'log', alpha = alpha, n_jobs = -1, penalty = 'l2') # change to hinge loss
-    svm = SVC()
-    svm.fit(train_features, y_train) 
-    y_test_prob = svm.predict(test_features)
-    print(accuracy_score(y_test_prob, y_test))
-    #print_model_metrics(y_test, y_test_prob, confusion = False, verbose = True, return_metrics = False)
-    #return y_test_prob
-
+# Compute Average W2V for each datapoint
 def avg_glove(df, glove):
     vectors = []
     for title in tqdm(df.data.values):
         vectors.append(np.average(glove.query(word_tokenize(title)), axis = 0))
     return np.array(vectors), df.intent.values
 
+
+# Perform GridSearch for SVM and return best model
 def train_model(features, y):
     svm = SVC(gamma = 'scale', probability = True)
-    params = {'C' : [0.01, 0.1, 1, 10, 50, 100, 1000]}
-    grid = GridSearchCV(svm, params, cv = 3, n_jobs = -1, scoring = 'roc_auc_ovr', verbose = 2, refit = True)
+    params = {'C' : [0.01, 0.1, 1, 10, 50, 100, 1000]}          # Try these values for regularization
+    grid = GridSearchCV(svm, params, cv = 3, n_jobs = -1, scoring = 'roc_auc_ovr', verbose = 2, refit = True)    # Change to cv=7
     grid.fit(features,y)
     print(grid.best_params_)
     return grid.best_estimator_
 
 
+# Dummy Responses 
 def reply(intent, entities):
-    if intent == 'applyLeave':
-        response = 'Applying for leave on ' + str(entities[0]) 
-    elif intent == 'leaveBalance':
-        response = 'Checking your leave balance' 
-    """
     responses = {
-        'findRestaurantsByCity' : 'I see you\'re hungry! Do you want me to look for restaurants',
         'affirmative' : 'Alright! I\'ll do that', 
         'greet' : 'Hello!',
         'bye' : 'See you later!',
@@ -91,20 +41,31 @@ def reply(intent, entities):
         'bookMeeting' : 'Ok scheduling a meeting',
         'applyLeave' : 'Ok apply for leave'
     }
-    """
-    print('BOT: ' + response)
+    print('BOT: ' + responses[intent] + '\n')
 
 
+def print_confidence_table(intents, confidence_scores):
+    x = PrettyTable()
+    x.field_names = ['Intent', 'Confidence']
+    for intent, score in zip(intents, confidence_scores):
+        x.add_row([intent, score])
+    print(x)
 
+# Pass the user input through the pipeline
+#             -> Tuned SVM Model -> Intent 
+# User Input |
+#             -> Spacy Entity Model -> Entities 
 def test_pipeline(user_input, model):
     nlp = spacy.load('custom_ner')
     entities = nlp(user_input)
 
     feature = np.average(glove.query(word_tokenize(user_input)), axis = 0)
     intent = model.predict(feature.reshape(1, -1))
-    print(intent)
-    print(entities.ents)
-    print(model.predict_proba(feature.reshape(1, -1)))
+    confidence_scores = model.predict_proba(feature.reshape(1,-1))
+    confidence_scores = [round(score, 2) for score in confidence_scores[0]]
+    print_confidence_table(model.classes_, confidence_scores)
+    print('Intent: ', intent)
+    print('Entities: ', [(X.text, X.label_) for X in entities.ents])
     reply(intent[0], entities.ents)
 
 
@@ -115,8 +76,7 @@ if __name__  == '__main__':
     features, y = avg_glove(data, glove)
     model = train_model(features, y)
 
-    print('Ready!')
+    print('Ready!\n')
     while True:
         test_pipeline(input(), model)
 
-    #print(run_svc(train_features, test_features, y_train, y_test))
