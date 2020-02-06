@@ -9,6 +9,8 @@ import pandas as pd
 import spacy
 from prettytable import PrettyTable
 import numpy as np
+import pkg_resources
+from symspellpy import SymSpell, Verbosity
 
     
 # Compute Average W2V for each datapoint
@@ -53,11 +55,18 @@ def print_confidence_table(intents, confidence_scores):
 #             -> Tuned SVM Model -> Intent 
 # User Input |
 #             -> Spacy Entity Model -> Entities 
-def test_pipeline(user_input, model, vectors):
+def test_pipeline(user_input, model, vectors, sym_spell):
     nlp = spacy.load('custom_ner')
-    entities = nlp(user_input)
-
-    feature = np.average(vectors.query(word_tokenize(user_input)), axis = 0)
+    #input_tokens = word_tokenize(user_input)
+    #for idx, word in enumerate(input_tokens):
+        #if word not in vectors:
+    suggestions = sym_spell.lookup_compound(user_input, max_edit_distance=2)
+        #input_tokens[idx] = [suggest._term for suggest in suggestions][0]
+    user_input = [suggest._term for suggest in suggestions][0]
+    input_tokens = word_tokenize(user_input)
+    print(input_tokens)
+    entities = nlp(''.join(input_tokens))
+    feature = np.average(vectors.query(input_tokens), axis = 0)
     intent = model.predict(feature.reshape(1, -1))
     confidence_scores = model.predict_proba(feature.reshape(1,-1))
     confidence_scores = [round(score, 2) for score in confidence_scores[0]]
@@ -66,16 +75,25 @@ def test_pipeline(user_input, model, vectors):
     print('Entities: ', [(X.text, X.label_) for X in entities.ents])
     reply(intent[0], entities.ents)
 
+def init_dictionary(corpus_path):
+    sym_spell = SymSpell()
+    dictionary_path = pkg_resources.resource_filename(
+    "symspellpy", "frequency_dictionary_en_82_765.txt")
+    sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
+    sym_spell.create_dictionary(corpus_path)
+    return sym_spell
 
 if __name__  == '__main__':
     #nltk.download('punkt')
-    #vectors = Magnitude("glove.twitter.27B.100d.magnitude")
-    vectors = Magnitude("crawl-300d-2M.magnitude")
-    data = pd.read_csv('chatito_train.csv')
+    vectors = Magnitude("glove.twitter.27B.100d.magnitude")
+    dataset_path = 'chatito_train.csv'
+    #vectors = Magnitude("crawl-300d-2M.magnitude")
+    data = pd.read_csv(dataset_path)
+    sym_spell = init_dictionary(dataset_path)
     features, y = avg_glove(data, vectors)
     model = train_model(features, y)
 
     print('Ready!\n')
     while True:
-        test_pipeline(input(), model, vectors)
+        test_pipeline(input(), model, vectors, sym_spell)
 
