@@ -33,7 +33,7 @@ import ./common.chatito
     available
 
 ~[meeting]
-    meetingd
+    meetings
     meet
     room
     hall

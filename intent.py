@@ -11,6 +11,8 @@ from prettytable import PrettyTable
 import numpy as np
 import pkg_resources
 from symspellpy import SymSpell, Verbosity
+import time 
+# npx chatito chatito --outputPath='./' --trainingFileName='training_dataset.json'
 
     
 # Compute Average W2V for each datapoint
@@ -21,10 +23,12 @@ def avg_glove(df, glove):
     return np.array(vectors), df.intent.values
 
 
+
+
 # Perform GridSearch for SVM and return best model
 def train_model(features, y):
     svm = SVC(gamma = 'scale', probability = True)
-    params = {'C' : [0.01, 0.1, 1, 10, 50, 100, 1000]}          # Try these values for regularization
+    params = {'C' : [0.1, 1, 10, 50, 100]}          # Try these values for regularization
     grid = GridSearchCV(svm, params, cv = 3, n_jobs = -1, scoring = 'roc_auc_ovr', verbose = 2, refit = True)    # Change to cv=7
     grid.fit(features,y)
     print(grid.best_params_)
@@ -51,20 +55,22 @@ def print_confidence_table(intents, confidence_scores):
         x.add_row([intent, score])
     print(x)
 
+
+def spell_correct(sym_spell, user_input):
+    suggestions = sym_spell.lookup_compound(user_input, max_edit_distance=2)
+    user_input = [suggest._term for suggest in suggestions][0]
+    return user_input
+
+
 # Pass the user input through the pipeline
 #             -> Tuned SVM Model -> Intent 
 # User Input |
 #             -> Spacy Entity Model -> Entities 
 def test_pipeline(user_input, model, vectors, sym_spell):
+    start_time = time.time()
     nlp = spacy.load('custom_ner')
-    #input_tokens = word_tokenize(user_input)
-    #for idx, word in enumerate(input_tokens):
-        #if word not in vectors:
-    suggestions = sym_spell.lookup_compound(user_input, max_edit_distance=2)
-        #input_tokens[idx] = [suggest._term for suggest in suggestions][0]
-    user_input = [suggest._term for suggest in suggestions][0]
+    #user_input = spell_correct(user_input)
     input_tokens = word_tokenize(user_input)
-    print(input_tokens)
     entities = nlp(''.join(input_tokens))
     feature = np.average(vectors.query(input_tokens), axis = 0)
     intent = model.predict(feature.reshape(1, -1))
@@ -74,6 +80,7 @@ def test_pipeline(user_input, model, vectors, sym_spell):
     print('Intent: ', intent)
     print('Entities: ', [(X.text, X.label_) for X in entities.ents])
     reply(intent[0], entities.ents)
+    print('Exec time : ', time.time()-start_time)
 
 def init_dictionary(corpus_path):
     sym_spell = SymSpell()
@@ -85,7 +92,8 @@ def init_dictionary(corpus_path):
 
 if __name__  == '__main__':
     #nltk.download('punkt')
-    vectors = Magnitude("glove.twitter.27B.100d.magnitude")
+    vectors = Magnitude("elmo_2x1024_128_2048cnn_1xhighway_weights.magnitude")
+    #vectors = Magnitude("glove.twitter.27B.100d.magnitude")
     dataset_path = 'chatito_train.csv'
     #vectors = Magnitude("crawl-300d-2M.magnitude")
     data = pd.read_csv(dataset_path)
