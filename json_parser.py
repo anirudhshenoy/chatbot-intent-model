@@ -1,17 +1,20 @@
 import json
 import pickle
 import csv
+import subprocess as sp
 
 if __name__ == '__main__':
 
-    files = ['train_dataset.json', 'smalltalk_dataset.json']
-    filenames = ['chatito_train.csv', 'smalltalk.csv']
+    sp.Popen('npx chatito chatito/chatito-smalltalk --outputPath=\'./chatito\' --trainingFileName=\'smalltalk_dataset.json\'', shell = True).wait()
+    sp.Popen('npx chatito chatito/chatito-typeofleave --outputPath=\'./chatito\' --trainingFileName=\'typeofleave_dataset.json\'', shell = True).wait()
+    sp.Popen('npx chatito chatito/chatito-main --outputPath=\'./chatito\' --trainingFileName=\'train_dataset.json\'', shell = True).wait()
+
+    files = ['train_dataset.json', 'smalltalk_dataset.json', 'typeofleave_dataset.json']
+    filenames = ['chatito_train.csv', 'smalltalk.csv', 'typeofleave.csv']
     for file, filename in zip(files, filenames):
-        with open(file) as f:
+        with open('chatito/' + file) as f:
             data = json.load(f)
         fields = ['data', 'intent']
-        #filename = 'chatito_train.csv'
-
         lines = []
         entity_data = []
         for intent in data:
@@ -27,7 +30,7 @@ if __name__ == '__main__':
                     entity_data.append((sentence, {'entities' : entity}))
                 lines.append({'data' : sentence, 'intent' : intent})
 
-        with open(filename, 'w') as csvfile:
+        with open('dataset/' + filename, 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames = fields)
             writer.writeheader()
             writer.writerows(lines)

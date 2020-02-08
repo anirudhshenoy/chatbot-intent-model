@@ -1,0 +1,43 @@
+import ./common.chatito
+
+%[maternity]('training': '1000')
+    *[20%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[maternity] ~[leave] on @[bookDate]
+    *[20%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[maternity] ~[leave] 
+    *[10%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[maternity] ~[leave] from @[bookDate] to @[bookDate]
+    *[20%] ~[question] ~[apply] for ~[maternity] ~[leave]
+    *[10%]  ~[child] ~[statement] for ~[maternity?] ~[leave]
+    *[10%] ~[apply?] ~[maternity] ~[leave]
+    *[10%] become a [mother|parent] ~[statement?] for ~[maternity?] ~[leave]
+
+~[apply]
+    apply
+    request
+    application
+    avail
+    get
+
+~[child]
+    ~[gender] child
+    son
+    daughter
+    baby ~[gender]
+    children
+    babies
+
+~[gender]
+    boy
+    girl
+
+
+
+
+~[leave]
+    leave
+    vacation
+    holiday
+
+~[maternity]
+    maternity
+    meternity
+    metneral
+    maternal

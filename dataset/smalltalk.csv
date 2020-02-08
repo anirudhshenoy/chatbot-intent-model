@@ -1,0 +1,401 @@
+data,intent
+im ok with that its fine im ok with that,affirmative
+yes sir that is right im ok with that,affirmative
+sounds good good right,affirmative
+im ok with that,affirmative
+yes,affirmative
+correct that is fine affirmative,affirmative
+im ok with that you understood me yes sir,affirmative
+that is fine yes,affirmative
+im ok with that i want that correct,affirmative
+yes i want that yep,affirmative
+yes sir you understood me im ok with that,affirmative
+right that is right im ok with that,affirmative
+yes sir that is fine yes,affirmative
+im ok with that that is good right,affirmative
+you understood me sounds good,affirmative
+right you understood me im ok with that,affirmative
+correct affirmative thanks,affirmative
+good right,affirmative
+yes sir that is correct agreed,affirmative
+affirmative that is what i want yep,affirmative
+right that is right yes,affirmative
+agreed you understood me affirmative,affirmative
+sounds good that is fine right,affirmative
+yep that is fine im ok with that,affirmative
+yes sir,affirmative
+affirmative yes sir,affirmative
+yes i want that yes sir,affirmative
+yep that is fine yes,affirmative
+that is correct yep,affirmative
+affirmative,affirmative
+affirmative correct thank you,affirmative
+right that is what i want,affirmative
+yes its fine yes,affirmative
+sounds good that is right im ok with that,affirmative
+im ok with that good yes,affirmative
+right that is fine affirmative,affirmative
+affirmative plz,affirmative
+agreed,affirmative
+sounds good its fine,affirmative
+sounds good yes thank you,affirmative
+yep correct,affirmative
+correct,affirmative
+agreed that is fine right,affirmative
+agreed good sounds good,affirmative
+right sounds good thank you,affirmative
+yep you understood me affirmative,affirmative
+right that is fine im ok with that,affirmative
+correct you understood me sounds good,affirmative
+right that is what i want yes,affirmative
+correct i want that affirmative,affirmative
+yes im ok with that,affirmative
+im ok with that i want that sounds good,affirmative
+that is correct right,affirmative
+agreed that is right sounds good,affirmative
+yep yes,affirmative
+affirmative i want that,affirmative
+right that is what i want yes sir,affirmative
+yep that is correct affirmative,affirmative
+yes sir that is fine yep,affirmative
+yep,affirmative
+correct that is what i want agreed,affirmative
+sounds good good,affirmative
+affirmative that is fine correct,affirmative
+sounds good,affirmative
+yes sir yep thanks,affirmative
+yes you understood me yes,affirmative
+im ok with that that is fine yes sir,affirmative
+yes you understood me correct,affirmative
+sounds good you understood me yep,affirmative
+that is good right,affirmative
+yes sir yes sir thank you,affirmative
+yep right thanks,affirmative
+correct that is correct agreed,affirmative
+right that is correct yes,affirmative
+correct that is good yep,affirmative
+yep that is correct yep,affirmative
+sounds good good yes,affirmative
+affirmative that is what i want sounds good,affirmative
+yes affirmative thank you,affirmative
+yes sir that is correct right,affirmative
+agreed good agreed,affirmative
+yep that is right correct,affirmative
+yes sir that is good im ok with that,affirmative
+yep agreed thank you,affirmative
+correct you understood me yes,affirmative
+affirmative thank you,affirmative
+right good yep,affirmative
+im ok with that that is fine correct,affirmative
+right affirmative,affirmative
+yes affirmative,affirmative
+yes sir pls,affirmative
+affirmative that is what i want agreed,affirmative
+agreed correct thanks,affirmative
+sounds good that is correct correct,affirmative
+yes sir correct thanks,affirmative
+right you understood me right,affirmative
+right that is good correct,affirmative
+that is right im ok with that,affirmative
+yes sir that is fine agreed,affirmative
+agreed that is correct yes,affirmative
+talk to you soon adieu,bye
+heading out adieu,bye
+heading out gtg,bye
+leaving gtg,bye
+leaving adieu,bye
+adieu,bye
+heading out,bye
+talk to you later ttyl,bye
+chao,bye
+leaving goodbye,bye
+gtg,bye
+have to go,bye
+thank you gtg,bye
+goodbye,bye
+chau thanks,bye
+farewell,bye
+got to go adieu,bye
+bye,bye
+im leaving now chau,bye
+heading out farewell,bye
+im leaving now adieu,bye
+talk to you soon ttyl,bye
+thanks goodbye,bye
+thanks ttyl,bye
+talk to you later bye,bye
+going out chau,bye
+adios,bye
+got to go gtg,bye
+thanks bye,bye
+thanks adios,bye
+adieu thank you,bye
+ttyl,bye
+got to go goodbye,bye
+talk to you soon adios,bye
+thank you chao,bye
+going out ttyl,bye
+adios thank you,bye
+going out,bye
+im leaving now,bye
+farewell thanks,bye
+im leaving now farewell,bye
+bye thanks,bye
+im leaving now bye,bye
+have to go farewell,bye
+im leaving now adios,bye
+thank you bye,bye
+got to go farewell,bye
+got to go,bye
+have to go ttyl,bye
+going out chao,bye
+talk to you soon chau,bye
+talk to you later adieu,bye
+adieu thanks,bye
+thanks adieu,bye
+have to go adios,bye
+talk to you soon farewell,bye
+have to go adieu,bye
+talk to you later goodbye,bye
+have to go bye,bye
+goodbye thanks,bye
+thanks chao,bye
+going out bye,bye
+heading out adios,bye
+got to go chao,bye
+chau,bye
+talk to you later adios,bye
+have to go gtg,bye
+leaving farewell,bye
+talk to you later farewell,bye
+im leaving now ttyl,bye
+heading out bye,bye
+bye thank you,bye
+talk to you soon chao,bye
+leaving chao,bye
+thanks gtg,bye
+thank you goodbye,bye
+have to go chao,bye
+ttyl thank you,bye
+going out gtg,bye
+going out adios,bye
+going out goodbye,bye
+got to go bye,bye
+gtg thanks,bye
+thank you chau,bye
+thank you farewell,bye
+heading out chao,bye
+thank you ttyl,bye
+have to go goodbye,bye
+thank you adios,bye
+talk to you later,bye
+thank you adieu,bye
+leaving,bye
+talk to you soon goodbye,bye
+adios thanks,bye
+chao thanks,bye
+im leaving now goodbye,bye
+gtg thank you,bye
+have to go chau,bye
+got to go adios,bye
+thanks chau,bye
+good night are you around?,greet
+hi,greet
+hi how are you,greet
+hey good day sup,greet
+morning how are you,greet
+hey good afternoon how are you,greet
+hello,greet
+hey greetings how is it going,greet
+hey morning how are you doing,greet
+hello good night how are things going,greet
+hello good afternoon sup,greet
+hey,greet
+good afternoon are you around?,greet
+hello good morning are you around,greet
+hello greetings sup,greet
+good night how are you doing,greet
+hi good afternoon whatsup,greet
+hey morning,greet
+good afternoon whatsup,greet
+hello good night whats up,greet
+hello whats up,greet
+hi good afternoon how are you,greet
+hey good afternoon,greet
+hello greetings are you there,greet
+hi good day are you there,greet
+hey good night are you around,greet
+hey morning how are you,greet
+hi good night how are you doing,greet
+hey good afternoon are you around,greet
+hello good day,greet
+good day are you there,greet
+hello good morning how are you doing,greet
+hi morning whatsup,greet
+hi good afternoon,greet
+hello greetings are you around?,greet
+hi good morning how are you,greet
+hey how are you,greet
+hey good morning how are you doing,greet
+greetings how are you,greet
+hey good night are you there,greet
+hello morning are you around,greet
+hi good morning sup,greet
+hey good night whats up,greet
+hello good afternoon are you there,greet
+hi good morning are you around,greet
+hey good morning whatsup,greet
+hi greetings sup,greet
+hi greetings are you there,greet
+good night whats up,greet
+good afternoon are you around,greet
+hi how are you doing,greet
+hello good day how are things going,greet
+hi morning how is it going,greet
+hey good night whatsup,greet
+hey good morning how are you,greet
+hey good day are you around,greet
+hello good afternoon,greet
+hey good night,greet
+hello morning how are things going,greet
+hi greetings how are things going,greet
+good night are you there,greet
+hey how is it going,greet
+hi are you around,greet
+hello good afternoon are you around?,greet
+hey are you around?,greet
+hey greetings sup,greet
+good morning are you around?,greet
+hey morning whatsup,greet
+hello good night are you around?,greet
+hi morning whats up,greet
+hello whatsup,greet
+hi good afternoon how are you doing,greet
+good morning how are you,greet
+hi greetings how are you doing,greet
+hey how are things going,greet
+hi how are things going,greet
+hi greetings how are you,greet
+hi good day,greet
+hi greetings,greet
+hey morning whats up,greet
+hey how are you doing,greet
+hey sup,greet
+greetings how is it going,greet
+hello morning whatsup,greet
+hey morning are you around?,greet
+hi greetings are you around,greet
+greetings whats up,greet
+hello greetings whats up,greet
+hi good morning are you there,greet
+hello good afternoon how are things going,greet
+hi morning how are things going,greet
+hey greetings how are you doing,greet
+hello greetings,greet
+good morning whats up,greet
+morning how is it going,greet
+hi greetings whatsup,greet
+morning how are things going,greet
+hello good day sup,greet
+hey greetings,greet
+good night sup,greet
+dont mean that,negative
+please nope its not correct,negative
+don't do that please i don't want that,negative
+not really that's not correct,negative
+not really,negative
+no plz that's wrong,negative
+pls that's not right its not ok,negative
+don't do that,negative
+its not ok,negative
+not really please its not correct,negative
+i don't want that,negative
+no,negative
+plz no its not correct,negative
+didnt meant that,negative
+not really didnt meant that,negative
+pls incorrect that's not correct,negative
+pls nope its not ok,negative
+incorrect,negative
+it's not good,negative
+that's wrong,negative
+plz that's not right dont mean that,negative
+not really plz,negative
+pls incorrect it's not good,negative
+no plz that's not correct,negative
+plz nope that's not what i want,negative
+that's not correct,negative
+pls nope dont mean that,negative
+please incorrect its not ok,negative
+don't do that that's not correct,negative
+please not really that's not what i want,negative
+incorrect please that's not correct,negative
+don't do that plz that's wrong,negative
+that's not right that is wrong,negative
+please no its not ok,negative
+plz that's not right i don't want that,negative
+please don't do that dont mean that,negative
+that's not right,negative
+no please that is wrong,negative
+no please its not correct,negative
+no plz its not correct,negative
+nope,negative
+not really pls dont mean that,negative
+not really please that's not correct,negative
+incorrect its not correct,negative
+not really plz its not correct,negative
+that is wrong,negative
+nope plz i don't want that,negative
+not really its not ok,negative
+pls that's not right didnt meant that,negative
+incorrect its not ok,negative
+pls incorrect its not correct,negative
+incorrect pls i don't want that,negative
+pls don't do that its not ok,negative
+that's not right pls dont mean that,negative
+no that is wrong,negative
+plz nope it's not good,negative
+nope that is wrong,negative
+don't do that plz i don't want that,negative
+incorrect plz that's not correct,negative
+no i don't want that,negative
+plz no i don't want that,negative
+its not correct,negative
+nope that's not correct,negative
+please incorrect didnt meant that,negative
+don't do that dont mean that,negative
+incorrect pls dont mean that,negative
+that's not right plz,negative
+plz that's not right it's not good,negative
+pls don't do that,negative
+nope please that is wrong,negative
+please no that's wrong,negative
+nope dont mean that,negative
+that's not right pls that's not what i want,negative
+don't do that that is wrong,negative
+pls incorrect i don't want that,negative
+please no,negative
+please incorrect that is wrong,negative
+not really that's wrong,negative
+no that's wrong,negative
+don't do that that's not what i want,negative
+not really i don't want that,negative
+nope plz that's not what i want,negative
+that's not right that's not correct,negative
+pls not really it's not good,negative
+that's not right plz i don't want that,negative
+pls no that's not what i want,negative
+no please that's not correct,negative
+no pls it's not good,negative
+that's not right plz dont mean that,negative
+please that's not right its not correct,negative
+not really dont mean that,negative
+that's not right plz that is wrong,negative
+that's not right please didnt meant that,negative
+pls don't do that that's not what i want,negative
+not really pls that's not correct,negative
+plz that's not right that's wrong,negative
+pls nope that's not correct,negative
+don't do that plz that is wrong,negative
+pls nope its not correct,negative
+that's not what i want,negative

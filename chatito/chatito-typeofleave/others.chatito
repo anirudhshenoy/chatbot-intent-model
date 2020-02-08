@@ -1,0 +1,19 @@
+import ./common.chatito
+
+%[otherType]('training': '1000')
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[leave] on @[bookDate]
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[leave]
+    *[30%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[leave] from @[bookDate] to @[bookDate]
+    *[10%] ~[apply?] ~[leave]
+
+~[apply]
+    apply
+    request
+    application
+    avail
+    get
+
+~[leave]
+    leave
+    vacation
+    holiday
