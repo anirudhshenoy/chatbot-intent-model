@@ -4,8 +4,8 @@ import csv
 
 if __name__ == '__main__':
 
-    files = ['training_dataset.json']
-    filenames = ['chatito_train.csv']
+    files = ['train_dataset.json', 'smalltalk_dataset.json']
+    filenames = ['chatito_train.csv', 'smalltalk.csv']
     for file, filename in zip(files, filenames):
         with open(file) as f:
             data = json.load(f)
@@ -15,18 +15,17 @@ if __name__ == '__main__':
         lines = []
         entity_data = []
         for intent in data:
-            if intent == 'applyLeave' or intent == 'bookMeeting' or intent == 'leaveBalance':
-                for line in data[intent]:
-                    sentence = ''
-                    entity = []
-                    for value in line:
-                        if value['type'] == 'Slot':
-                            entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
-                        sentence += value['value']
-                    if entity:
-                        #print(entity)
-                        entity_data.append((sentence, {'entities' : entity}))
-                    lines.append({'data' : sentence, 'intent' : intent})
+            for line in data[intent]:
+                sentence = ''
+                entity = []
+                for value in line:
+                    if value['type'] == 'Slot':
+                        entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
+                    sentence += value['value']
+                if entity:
+                    #print(entity)
+                    entity_data.append((sentence, {'entities' : entity}))
+                lines.append({'data' : sentence, 'intent' : intent})
 
         with open(filename, 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames = fields)
