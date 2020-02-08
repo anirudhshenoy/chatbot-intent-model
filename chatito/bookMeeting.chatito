@@ -1,5 +1,4 @@
 import ./common.chatito
-
 %[bookMeeting]('training': '1000')
     *[15%] ~[book] ~[available?] ~[meeting] from @[bookTime] to @[bookTime]
     *[25%] ~[book] ~[available?] ~[meeting] from @[bookTime] to @[bookTime] on @[bookDate]
@@ -33,7 +32,7 @@ import ./common.chatito
     available
 
 ~[meeting]
-    meetings
+    meeting
     meet
     room
     hall

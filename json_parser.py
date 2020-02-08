@@ -15,18 +15,18 @@ if __name__ == '__main__':
         lines = []
         entity_data = []
         for intent in data:
- #           if intent == 'applyLeave':
-            for line in data[intent]:
-                sentence = ''
-                entity = []
-                for value in line:
-                    if value['type'] == 'Slot':
-                        entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
-                    sentence += value['value']
-                if entity:
-                    #print(entity)
-                    entity_data.append((sentence, {'entities' : entity}))
-                lines.append({'data' : sentence, 'intent' : intent})
+            if intent == 'applyLeave' or intent == 'bookMeeting' or intent == 'leaveBalance':
+                for line in data[intent]:
+                    sentence = ''
+                    entity = []
+                    for value in line:
+                        if value['type'] == 'Slot':
+                            entity.append((len(sentence), len(sentence) + len(value['value']), value['slot']))
+                        sentence += value['value']
+                    if entity:
+                        #print(entity)
+                        entity_data.append((sentence, {'entities' : entity}))
+                    lines.append({'data' : sentence, 'intent' : intent})
 
         with open(filename, 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames = fields)

@@ -22,9 +22,6 @@ def avg_glove(df, glove):
         vectors.append(np.average(glove.query(word_tokenize(title)), axis = 0))
     return np.array(vectors), df.intent.values
 
-
-
-
 # Perform GridSearch for SVM and return best model
 def train_model(features, y):
     svm = SVC(gamma = 'scale', probability = True)
@@ -92,7 +89,7 @@ def init_dictionary(corpus_path):
 
 if __name__  == '__main__':
     #nltk.download('punkt')
-    vectors = Magnitude("elmo_2x1024_128_2048cnn_1xhighway_weights.magnitude")
+    vectors = Magnitude("elmo_2x1024_128_2048cnn_1xhighway_weights_GoogleNews_vocab.magnitude")
     #vectors = Magnitude("glove.twitter.27B.100d.magnitude")
     dataset_path = 'chatito_train.csv'
     #vectors = Magnitude("crawl-300d-2M.magnitude")
