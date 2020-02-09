@@ -2,11 +2,12 @@ import ./common.chatito
 
 %[sick]('training': '1000')
     *[20%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[sick] ~[leave] on @[bookDate]
-    *[20%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[sick] ~[leave] 
+    *[10%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[sick] ~[leave] 
     *[10%] ~[hi?] ~[please?] ~[self?] ~[statement?] ~[apply] for ~[sick] ~[leave] from @[bookDate] to @[bookDate]
     *[20%] ~[question] ~[apply] for ~[sick] ~[leave]
     *[20%] ~[hi?] I am [unwell] ~[statement] for ~[sick?] ~[leave]
     *[10%] ~[apply?] ~[sick] ~[leave]
+    *[10%] ~[sick]
 
 ~[apply]
     apply

@@ -1,6 +1,6 @@
 import ./common.chatito
 
-%[leaveBalance]('training': '1000')
+%[leaveBalance]('training': '100')
     *[50%] ~[self?] ~[statement] ~[check] @[typeOfLeave?] ~[leave] ~[balance]
     *[50%] ~[question?] ~[show?] @[typeOfLeave?] ~[leave] ~[balance]
 

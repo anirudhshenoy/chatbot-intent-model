@@ -2,6 +2,7 @@ import json
 import pickle
 import csv
 import subprocess as sp
+import pandas as pd
 
 if __name__ == '__main__':
 
@@ -10,7 +11,7 @@ if __name__ == '__main__':
     sp.Popen('npx chatito chatito/chatito-main --outputPath=\'./chatito\' --trainingFileName=\'train_dataset.json\'', shell = True).wait()
 
     files = ['train_dataset.json', 'smalltalk_dataset.json', 'typeofleave_dataset.json']
-    filenames = ['chatito_train.csv', 'smalltalk.csv', 'typeofleave.csv']
+    filenames = ['mainModel.csv', 'smalltalk.csv', 'typeofleave.csv']
     for file, filename in zip(files, filenames):
         with open('chatito/' + file) as f:
             data = json.load(f)
@@ -38,3 +39,16 @@ if __name__ == '__main__':
         pickle.dump(entity_data, entity_file)
         entity_file.close()
         
+    # concat smalltalk with main dataset
+    data = pd.read_csv('dataset/mainModel.csv')
+    smalltalk = pd.read_csv('dataset/smalltalk.csv')
+    typeofleave = pd.read_csv('dataset/typeofleave.csv')
+    typeofleave['intent'] = ['applyLeave' for _ in typeofleave.data.values]
+    smalltalk['intent'] = ['smalltalk' for _ in smalltalk.data.values]
+    data = pd.concat([data, smalltalk, typeofleave])
+    data.to_csv('dataset/mainModel.csv', index = False)
+
+    # concat smalltalk with typeofleave dataset 
+    typeofleave = pd.read_csv('dataset/typeofleave.csv')
+    data = pd.concat([smalltalk, typeofleave])
+    data.to_csv('dataset/typeofleave.csv', index = False)
